@@ -1,0 +1,10 @@
+use_frameworks!
+
+platform :ios, '8.1'
+pod 'Alamofire', '~> 3.0'
+pod 'YYText'
+pod 'YYWebImage'
+pod 'Kanna'
+pod 'SwiftDate'
+pod 'JTCalendar', '~> 2.0'
+pod 'CVCalendar', '~> 1.2.9'

@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (3.3.0)
+  - CVCalendar (1.2.9)
+  - JTCalendar (2.1.5)
+  - Kanna (1.0.6)
+  - SwiftDate (3.0.8)
+  - YYCache (1.0.2)
+  - YYImage (1.0.1):
+    - YYImage/Core (= 1.0.1)
+  - YYImage/Core (1.0.1)
+  - YYText (1.0.3)
+  - YYWebImage (1.0.3):
+    - YYCache
+    - YYImage
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - CVCalendar (~> 1.2.9)
+  - JTCalendar (~> 2.0)
+  - Kanna
+  - SwiftDate
+  - YYText
+  - YYWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: 9054db4a1b1ca9e363223183e01cea380159a27c
+  CVCalendar: 0799256e0bc3b43e83b7e86c0729ce9ff0624cb6
+  JTCalendar: 57a4420f12d10c93c3b28da96803e7043d1c9281
+  Kanna: 9f30945bbd293a609f698ea164687ccc0990ff60
+  SwiftDate: 971f8b9394f664f2226b9c3ab64e801a7291c612
+  YYCache: c159ab4bb51e1ca4872ddadaf1778f9ec4ae40bb
+  YYImage: b41b45bc5f32bfcdf67bdfb9c09da9e9832357c0
+  YYText: 3050159192035d7f232b537ce76668aac2e2bd8b
+  YYWebImage: 8da75a611fd0d2e0f58a273f9ca0bc731614cb0d
+
+COCOAPODS: 0.39.0
