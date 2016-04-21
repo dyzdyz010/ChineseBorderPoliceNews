@@ -15,6 +15,7 @@ class Page: NSObject {
     var title: String = ""
     var readCount: Int = 0
     var link: String = ""
+    var map: String = ""
     var entries: [Entry] = [Entry]()
     
     func load(callback: Page? -> Void) {
@@ -31,6 +32,14 @@ class Page: NSObject {
             } else {
                 
                 let doc = Kanna.HTML(html: resultStr.dataUsingEncoding(NSUTF8StringEncoding)!, encoding: NSUTF8StringEncoding)!
+                
+                // Minimap
+//                for img in doc.xpath("//div[@class='map']//img") {
+//                    let imgSrc = img["src"]!
+//                    let urlStr = self.baseUrl + imgSrc.substringFromIndex(imgSrc.startIndex.advancedBy(5))
+//                    //                print(urlStr)
+//                    self.map = NSURL(string: urlStr)
+//                }
                 
                 // Entries
                 self.entries.removeAll()

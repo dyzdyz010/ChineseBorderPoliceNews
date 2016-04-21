@@ -306,6 +306,13 @@
 			path = Wechat;
 			sourceTree = "<group>";
 		};
+		6475838F1CC87400004F1C17 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		64920C5E1CAA9EB1006D1307 = {
 			isa = PBXGroup;
 			children = (
@@ -331,15 +338,16 @@
 		64920C691CAA9EB1006D1307 /* BorderPoliceNews */ = {
 			isa = PBXGroup;
 			children = (
+				6475838F1CC87400004F1C17 /* Resources */,
 				64161F6E1CB4FC4D003BFC7A /* BorderPoliceNews-Bridging-Header.h */,
 				64161F461CB4FB14003BFC7A /* UMSocial_Sdk_5.0.1 */,
 				641E3AE71CAAA327009F8BE5 /* BTNavigationDropdownMenu */,
 				64920C6A1CAA9EB1006D1307 /* AppDelegate.swift */,
 				64DFACB01CAAA199003125F8 /* Controllers */,
 				64DFACB11CAAA1C9003125F8 /* Views */,
-				64DFACB51CAAA1DF003125F8 /* Entry.swift */,
-				64DFACB61CAAA1DF003125F8 /* Page.swift */,
 				64DFACB71CAAA1DF003125F8 /* Paper.swift */,
+				64DFACB61CAAA1DF003125F8 /* Page.swift */,
+				64DFACB51CAAA1DF003125F8 /* Entry.swift */,
 				64920C6E1CAA9EB1006D1307 /* Main.storyboard */,
 				64920C711CAA9EB1006D1307 /* Assets.xcassets */,
 				64920C731CAA9EB1006D1307 /* LaunchScreen.storyboard */,
@@ -360,8 +368,8 @@
 		64DFACB01CAAA199003125F8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				647F240E1CC464610090DCE2 /* PaperViewController.swift */,
 				64DFACA91CAAA196003125F8 /* HomeViewController.swift */,
+				647F240E1CC464610090DCE2 /* PaperViewController.swift */,
 				64DFACA81CAAA196003125F8 /* EntryViewController.swift */,
 				64DFACA71CAAA196003125F8 /* DemoCalendarViewController.swift */,
 			);

@@ -24,8 +24,6 @@ class Paper: NSObject {
     var pages: [Page] = [Page]()
     var date: NSDate = NSDate()
     
-    var map: NSURL? = nil
-    
     static func fetchPaper(date: NSDate, callback: Paper? ->()) {
         
         checkPaperAvailability(date) { (exists, resultStr) -> Void in
@@ -37,18 +35,6 @@ class Paper: NSObject {
             let paper = Paper()
             
             let doc = Kanna.HTML(html: resultStr.dataUsingEncoding(NSUTF8StringEncoding)!, encoding: NSUTF8StringEncoding)!
-            
-            // Map image
-//            let img = doc.at_xpath("//img[@id='gmipam_0_image']")
-//            if img != nil {
-//                paper.map = NSURL(string: img!["src"]!)
-//            }
-            for img in doc.xpath("//div[@class='map']//img") {
-                let imgSrc = img["src"]!
-                let urlStr = self.baseUrl + imgSrc.substringFromIndex(imgSrc.startIndex.advancedBy(5))
-//                print(urlStr)
-                paper.map = NSURL(string: urlStr)
-            }
             
             // Headlines
             for link in doc.xpath("//ul[@class='pl10 pr10']//a") {
