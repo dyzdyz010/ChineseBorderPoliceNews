@@ -35,6 +35,7 @@
 		646DE3A21CB5040000C56CA8 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646DE3A11CB5040000C56CA8 /* CoreTelephony.framework */; };
 		646DE3A41CB5040A00C56CA8 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 646DE3A31CB5040A00C56CA8 /* libstdc++.tbd */; };
 		646DE3A61CB5041700C56CA8 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 646DE3A51CB5041700C56CA8 /* libz.tbd */; };
+		647F240F1CC464610090DCE2 /* PaperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647F240E1CC464610090DCE2 /* PaperViewController.swift */; };
 		648F86A31CAAA4A80013EEA9 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 648F86A11CAAA4A80013EEA9 /* Fabric.framework */; };
 		648F86A41CAAA4A80013EEA9 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 648F86A21CAAA4A80013EEA9 /* Crashlytics.framework */; };
 		64920C6B1CAA9EB1006D1307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64920C6A1CAA9EB1006D1307 /* AppDelegate.swift */; };
@@ -132,6 +133,7 @@
 		646DE3A11CB5040000C56CA8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		646DE3A31CB5040A00C56CA8 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		646DE3A51CB5041700C56CA8 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		647F240E1CC464610090DCE2 /* PaperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaperViewController.swift; sourceTree = "<group>"; };
 		648F86A11CAAA4A80013EEA9 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		648F86A21CAAA4A80013EEA9 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		64920C671CAA9EB1006D1307 /* 边防警察报.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "边防警察报.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -358,6 +360,7 @@
 		64DFACB01CAAA199003125F8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				647F240E1CC464610090DCE2 /* PaperViewController.swift */,
 				64DFACA91CAAA196003125F8 /* HomeViewController.swift */,
 				64DFACA81CAAA196003125F8 /* EntryViewController.swift */,
 				64DFACA71CAAA196003125F8 /* DemoCalendarViewController.swift */,
@@ -580,6 +583,7 @@
 				64DFACAC1CAAA196003125F8 /* EntryViewController.swift in Sources */,
 				64DFACBC1CAAA1DF003125F8 /* Paper.swift in Sources */,
 				64920C6B1CAA9EB1006D1307 /* AppDelegate.swift in Sources */,
+				647F240F1CC464610090DCE2 /* PaperViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

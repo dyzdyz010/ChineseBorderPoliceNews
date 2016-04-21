@@ -629,6 +629,23 @@
             </objects>
             <point key="canvasLocation" x="-1471.5" y="-20.25"/>
         </scene>
+        <!--Paper View Controller-->
+        <scene sceneID="TDe-aH-69r">
+            <objects>
+                <viewController id="mPS-ad-WrO" customClass="PaperViewController" customModule="边防警察报" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ez0-90-lJt"/>
+                        <viewControllerLayoutGuide type="bottom" id="HI9-Uo-fLw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sPd-hq-MDj">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pJO-zW-9Pi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-540" y="-849"/>
+        </scene>
         <!--最新-->
         <scene sceneID="ZTP-qJ-cOD">
             <objects>
