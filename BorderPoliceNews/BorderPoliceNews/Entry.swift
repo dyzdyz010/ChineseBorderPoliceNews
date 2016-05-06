@@ -22,8 +22,9 @@ class Entry: NSObject {
     var viewCount: String = "0"
     var readCount: Int = 0
     var text: [String] = []
-    var image: NSURL? = nil
+    var images: [NSURL?] = [NSURL?]()
     var link: String = ""
+    var points: [CGPoint] = [CGPoint]()
     
     var delegate: EntryDelegate? = nil
     
@@ -88,7 +89,7 @@ class Entry: NSObject {
                 let url = NSURL(string: urlStr)!
                 //                print(url)
                 
-                self.image = url
+                self.images.append(url)
             }
             
             completionHandler()

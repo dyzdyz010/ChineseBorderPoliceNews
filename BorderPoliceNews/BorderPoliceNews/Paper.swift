@@ -23,6 +23,7 @@ class Paper: NSObject {
     var headlines: [Entry] = [Entry]()
     var pages: [Page] = [Page]()
     var date: NSDate = NSDate()
+    var thumbUrl: String = ""
     
     static func fetchPaper(date: NSDate, callback: Paper? ->()) {
         
@@ -72,6 +73,13 @@ class Paper: NSObject {
                 paper.pages.append(page)
                 //                    print("\(page.link)")
             }
+            
+            // Fetch first page thumb
+            let thumbEle = doc.at_xpath("//div[@class='map']//img")!
+            let urlTemp = thumbEle["src"]!
+            let thumbUrl = self.baseUrl + urlTemp.substringFromIndex(urlTemp.startIndex.advancedBy(5))
+//            print(thumbUrl)
+            paper.thumbUrl = thumbUrl
             
             callback(paper)
         }

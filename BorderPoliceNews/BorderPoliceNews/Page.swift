@@ -17,10 +17,11 @@ class Page: NSObject {
     var link: String = ""
     var map: String = ""
     var entries: [Entry] = [Entry]()
+    var thumbUrl: String = ""
     
     func load(callback: Page? -> Void) {
         let url = NSURL(string: self.link)
-        let baseUrl = "http://www.chinagabf.com/xbfjcb/Html"
+        let baseUrl = "http://www.chinagabf.com/xbfjcb"
         //        print(url)
         let encoding = CFStringConvertEncodingToNSStringEncoding(UInt32(CFStringEncodings.GB_18030_2000.rawValue))
         Alamofire.request(.GET, url!).responseString(encoding: encoding) { (res) -> Void in
@@ -33,13 +34,12 @@ class Page: NSObject {
                 
                 let doc = Kanna.HTML(html: resultStr.dataUsingEncoding(NSUTF8StringEncoding)!, encoding: NSUTF8StringEncoding)!
                 
-                // Minimap
-//                for img in doc.xpath("//div[@class='map']//img") {
-//                    let imgSrc = img["src"]!
-//                    let urlStr = self.baseUrl + imgSrc.substringFromIndex(imgSrc.startIndex.advancedBy(5))
-//                    //                print(urlStr)
-//                    self.map = NSURL(string: urlStr)
-//                }
+                // Thumb
+                let thumbEle = doc.at_xpath("//div[@class='map']//img")!
+                let urlTemp = thumbEle["src"]!
+                let thumbUrl = baseUrl + urlTemp.substringFromIndex(urlTemp.startIndex.advancedBy(5))
+                print(thumbUrl)
+                self.thumbUrl = thumbUrl
                 
                 // Entries
                 self.entries.removeAll()
@@ -53,7 +53,7 @@ class Page: NSObject {
                     let entry = Entry()
                     entry.index = index
                     entry.title = title
-                    entry.link = baseUrl + urlComp.substringFromIndex(urlComp.startIndex.advancedBy(2))
+                    entry.link = baseUrl + "/Html" + urlComp.substringFromIndex(urlComp.startIndex.advancedBy(2))
                     //                    print(entry.link)
                     self.entries.append(entry)
                 }

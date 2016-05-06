@@ -110,7 +110,6 @@ class HomeViewController: UITableViewController, EntryDelegate {
             
             return p.pages[currentPage].entries.count
         } else {
-            print("Paper does not exist.")
             return 0
         }
     }
@@ -127,8 +126,8 @@ class HomeViewController: UITableViewController, EntryDelegate {
         titleLabel.text = entry!.title
         authorLabel.text = entry!.author
         viewCountLabel.text = entry!.viewCount
-        if entry?.image != nil {
-            coverImageView.yy_imageURL = entry?.image
+        if entry!.images.count != 0 {
+            coverImageView.yy_imageURL = entry?.images[0]
         } else {
             coverImageView.image = UIImage(named: "News")
         }

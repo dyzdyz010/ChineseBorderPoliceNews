@@ -54,13 +54,13 @@ class EntryViewController: UIViewController {
     func makeContent() {
         setTitles()
         
-        if entry?.image == nil {
+        if entry!.images.count == 0 {
             self.imageViewHeightConstraint.constant = 0
         }
         //        let imgpath = NSBundle.mainBundle().pathForResource("logo", ofType: "png")
         //        self.imageView.image = UIImage(contentsOfFile: imgpath!)
         
-        self.imageView.yy_setImageWithURL(entry?.image, placeholder: nil, options: YYWebImageOptions.ProgressiveBlur) { (img, url, from, stage, err) -> Void in
+        self.imageView.yy_setImageWithURL(entry!.images[0], placeholder: nil, options: YYWebImageOptions.ProgressiveBlur) { (img, url, from, stage, err) -> Void in
             if err != nil {
                 print(err)
             }
