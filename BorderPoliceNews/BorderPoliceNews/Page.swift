@@ -19,9 +19,10 @@ class Page: NSObject {
     var entries: [Entry] = [Entry]()
     var thumbUrl: String = ""
     
+    let baseUrl = "http://www.chinagabf.com/xbfjcb"
+    
     func load(callback: Page? -> Void) {
         let url = NSURL(string: self.link)
-        let baseUrl = "http://www.chinagabf.com/xbfjcb"
         //        print(url)
         let encoding = CFStringConvertEncodingToNSStringEncoding(UInt32(CFStringEncodings.GB_18030_2000.rawValue))
         Alamofire.request(.GET, url!).responseString(encoding: encoding) { (res) -> Void in
@@ -37,27 +38,31 @@ class Page: NSObject {
                 // Thumb
                 let thumbEle = doc.at_xpath("//div[@class='map']//img")!
                 let urlTemp = thumbEle["src"]!
-                let thumbUrl = baseUrl + urlTemp.substringFromIndex(urlTemp.startIndex.advancedBy(5))
+                let thumbUrl = self.baseUrl + urlTemp.substringFromIndex(urlTemp.startIndex.advancedBy(5))
                 print(thumbUrl)
                 self.thumbUrl = thumbUrl
                 
-                // Entries
-                self.entries.removeAll()
-                for a in doc.xpath("//ul[@class='pl10 pr10']//a") {
-                    let urlComp = a["href"]!
-                    let titleStr = a.text!
-                    let index = Int(titleStr.substringToIndex(titleStr.startIndex.advancedBy(2)))!
-                    let title = titleStr.substringFromIndex(titleStr.startIndex.advancedBy(3))
-                    //                    print("\(index): \(title)")
-                    
-                    let entry = Entry()
-                    entry.index = index
-                    entry.title = title
-                    entry.link = baseUrl + "/Html" + urlComp.substringFromIndex(urlComp.startIndex.advancedBy(2))
-                    //                    print(entry.link)
-                    self.entries.append(entry)
-                }
+                //                // Entries
+                //                self.entries.removeAll()
+                //                for a in doc.xpath("//ul[@class='pl10 pr10']//a") {
+                //                    let urlComp = a["href"]!
+                //                    let titleStr = a.text!
+                //                    let index = Int(titleStr.substringToIndex(titleStr.startIndex.advancedBy(2)))!
+                //                    let title = titleStr.substringFromIndex(titleStr.startIndex.advancedBy(3))
+                //                    //                    print("\(index): \(title)")
+                //                    
+                //                    let entry = Entry()
+                //                    entry.index = index
+                //                    entry.title = title
+                //                    entry.link = self.baseUrl + "/Html" + urlComp.substringFromIndex(urlComp.startIndex.advancedBy(2))
+                //                    //                    print(entry.link)
+                //                    self.entries.append(entry)
+                //                }
                 //                print(page.entries.count)
+                
+                // Load clickable areas
+                self.parseEntries(doc)
+                
                 
                 callback(self)
             }

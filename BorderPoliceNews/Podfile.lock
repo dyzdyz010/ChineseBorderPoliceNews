@@ -1,5 +1,5 @@
 PODS:
-  - Alamofire (3.3.1)
+  - Alamofire (3.4.0)
   - CVCalendar (1.2.9)
   - JTCalendar (2.1.5)
   - Kanna (1.0.6)
@@ -23,7 +23,7 @@ DEPENDENCIES:
   - YYWebImage
 
 SPEC CHECKSUMS:
-  Alamofire: 369bc67b6f5ac33ded3648d7bd21c5bfb91c2ecc
+  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
   CVCalendar: 0799256e0bc3b43e83b7e86c0729ce9ff0624cb6
   JTCalendar: 57a4420f12d10c93c3b28da96803e7043d1c9281
   Kanna: 9f30945bbd293a609f698ea164687ccc0990ff60

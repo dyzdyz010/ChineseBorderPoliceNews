@@ -43,6 +43,7 @@
 		64920C721CAA9EB1006D1307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64920C711CAA9EB1006D1307 /* Assets.xcassets */; };
 		64920C751CAA9EB1006D1307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64920C731CAA9EB1006D1307 /* LaunchScreen.storyboard */; };
 		64920C801CAA9EB2006D1307 /* BorderPoliceNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64920C7F1CAA9EB2006D1307 /* BorderPoliceNewsTests.swift */; };
+		649397FF1CE1DFF70062B10D /* Page+DomOps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649397FE1CE1DFF70062B10D /* Page+DomOps.swift */; };
 		64BBF1601CACB1AB00FCDCBA /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9DC5B7CC9EE95D7CDBEC26 /* Pods.framework */; };
 		64BBF1611CACB1EA00FCDCBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64920C6A1CAA9EB1006D1307 /* AppDelegate.swift */; };
 		64DFACAA1CAAA196003125F8 /* DemoCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DFACA71CAAA196003125F8 /* DemoCalendarViewController.swift */; };
@@ -145,6 +146,7 @@
 		64920C7B1CAA9EB2006D1307 /* BorderPoliceNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BorderPoliceNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64920C7F1CAA9EB2006D1307 /* BorderPoliceNewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderPoliceNewsTests.swift; sourceTree = "<group>"; };
 		64920C811CAA9EB2006D1307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		649397FE1CE1DFF70062B10D /* Page+DomOps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Page+DomOps.swift"; sourceTree = "<group>"; };
 		64C432BC1CAE237100D2E997 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		64DFACA71CAAA196003125F8 /* DemoCalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoCalendarViewController.swift; sourceTree = "<group>"; };
 		64DFACA81CAAA196003125F8 /* EntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
@@ -347,6 +349,7 @@
 				64DFACB11CAAA1C9003125F8 /* Views */,
 				64DFACB71CAAA1DF003125F8 /* Paper.swift */,
 				64DFACB61CAAA1DF003125F8 /* Page.swift */,
+				649397FE1CE1DFF70062B10D /* Page+DomOps.swift */,
 				64DFACB51CAAA1DF003125F8 /* Entry.swift */,
 				64920C6E1CAA9EB1006D1307 /* Main.storyboard */,
 				64920C711CAA9EB1006D1307 /* Assets.xcassets */,
@@ -592,6 +595,7 @@
 				64DFACBC1CAAA1DF003125F8 /* Paper.swift in Sources */,
 				64920C6B1CAA9EB1006D1307 /* AppDelegate.swift in Sources */,
 				647F240F1CC464610090DCE2 /* PaperViewController.swift in Sources */,
+				649397FF1CE1DFF70062B10D /* Page+DomOps.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

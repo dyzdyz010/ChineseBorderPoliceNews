@@ -46,7 +46,7 @@ class EntryViewController: UIViewController {
         self.authorLabel.text = self.entry?.author
         self.upperSubtitleLabel.text = entry?.subtitles[0]
         self.lowerSubtitleLabel.text = entry?.subtitles[1]
-//        self.upperSubtitleLabel.hidden = true
+        //        self.upperSubtitleLabel.hidden = true
         
         self.loadingAnimator.hidden = true
     }
@@ -59,10 +59,11 @@ class EntryViewController: UIViewController {
         }
         //        let imgpath = NSBundle.mainBundle().pathForResource("logo", ofType: "png")
         //        self.imageView.image = UIImage(contentsOfFile: imgpath!)
-        
-        self.imageView.yy_setImageWithURL(entry!.images[0], placeholder: nil, options: YYWebImageOptions.ProgressiveBlur) { (img, url, from, stage, err) -> Void in
-            if err != nil {
-                print(err)
+        if entry!.images.count > 0 {
+            self.imageView.yy_setImageWithURL(entry!.images[0], placeholder: nil, options: YYWebImageOptions.ProgressiveBlur) { (img, url, from, stage, err) -> Void in
+                if err != nil {
+                    print(err)
+                }
             }
         }
         
@@ -99,13 +100,13 @@ class EntryViewController: UIViewController {
     
     
     /*
-    // MARK: - Navigation
-    
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-    // Get the new view controller using segue.destinationViewController.
-    // Pass the selected object to the new view controller.
-    }
-    */
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
     
 }
