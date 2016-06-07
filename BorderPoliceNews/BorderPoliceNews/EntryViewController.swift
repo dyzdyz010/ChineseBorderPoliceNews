@@ -33,6 +33,7 @@ class EntryViewController: UIViewController {
         
         if entry?.author == "载入中" {
             entry?.reload(){
+                print(self.entry?.subtitles.count)
                 self.makeContent()
             }
         } else {
@@ -44,8 +45,13 @@ class EntryViewController: UIViewController {
     func setTitles() {
         self.titleLabel.text = self.entry?.title
         self.authorLabel.text = self.entry?.author
-        self.upperSubtitleLabel.text = entry?.subtitles[0]
-        self.lowerSubtitleLabel.text = entry?.subtitles[1]
+        
+        if entry?.subtitles.count != 0 {
+            self.upperSubtitleLabel.text = entry?.subtitles[0]
+        }
+        if entry?.subtitles.count > 1 {
+            self.lowerSubtitleLabel.text = entry?.subtitles[1]
+        }
         //        self.upperSubtitleLabel.hidden = true
         
         self.loadingAnimator.hidden = true

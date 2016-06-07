@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="g2a-ZS-gbd">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="g2a-ZS-gbd">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -580,13 +580,19 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" title="历史报纸" id="Um1-SC-qs7"/>
+                    <navigationItem key="navigationItem" title="历史报纸" id="Um1-SC-qs7">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="rqG-Ov-Oum">
+                            <connections>
+                                <action selector="refresh:" destination="xQj-AT-YT1" id="sUz-UM-OqJ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="calendarView" destination="xP0-Lc-DgS" id="Qug-ey-Gmp"/>
                         <outlet property="loadingIndicator" destination="h40-dN-tUI" id="ckH-0c-KoP"/>
                         <outlet property="menuView" destination="oCz-RX-gwf" id="2Ue-ud-178"/>
                         <outlet property="monthLabel" destination="Jfe-in-uDd" id="UuH-00-SAp"/>
-                        <segue destination="XkZ-zQ-mpY" kind="show" identifier="paper" id="n4W-hm-J1y"/>
+                        <segue destination="mPS-ad-WrO" kind="show" identifier="paper" id="rsg-Y1-Ycg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8LA-V5-apz" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -621,20 +627,19 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="QTD-tl-v2I" kind="relationship" relationship="viewControllers" id="ZiN-6u-aLm"/>
-                        <segue destination="Mhs-eL-QTY" kind="relationship" relationship="viewControllers" id="3Fs-ik-EiW"/>
                         <segue destination="OSm-Rr-rjz" kind="relationship" relationship="viewControllers" id="pBV-zD-VlQ"/>
+                        <segue destination="Mhs-eL-QTY" kind="relationship" relationship="viewControllers" id="3Fs-ik-EiW"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3W3-hz-PSF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1471.5" y="-20.25"/>
         </scene>
-        <!--Item-->
+        <!--最新-->
         <scene sceneID="CXC-qt-zbx">
             <objects>
                 <navigationController id="OSm-Rr-rjz" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="RTQ-4a-PPP"/>
+                    <tabBarItem key="tabBarItem" title="最新" image="Latest" selectedImage="Latest-Selected" id="RTQ-4a-PPP"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="YcR-Dh-V8D">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -656,6 +661,7 @@
                         <viewControllerLayoutGuide type="bottom" id="HI9-Uo-fLw"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="sPd-hq-MDj">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="7Aj-Py-FFL">
@@ -669,6 +675,9 @@
                                     <rect key="frame" x="0.0" y="64" width="400" height="687"/>
                                 </variation>
                             </scrollView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="4ab-bV-4G1">
+                                <rect key="frame" x="-10" y="-10" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -677,17 +686,22 @@
                             <constraint firstItem="HI9-Uo-fLw" firstAttribute="top" secondItem="7Aj-Py-FFL" secondAttribute="bottom" constant="8" id="SDj-WC-zpB"/>
                             <constraint firstItem="CQM-Rv-xAc" firstAttribute="top" secondItem="Ez0-90-lJt" secondAttribute="bottom" id="a4b-hB-Ihj"/>
                             <constraint firstItem="7Aj-Py-FFL" firstAttribute="centerX" secondItem="sPd-hq-MDj" secondAttribute="centerX" id="dX0-UE-BXH"/>
+                            <constraint firstItem="4ab-bV-4G1" firstAttribute="centerX" secondItem="sPd-hq-MDj" secondAttribute="centerX" id="heu-t9-DCi"/>
                             <constraint firstItem="CQM-Rv-xAc" firstAttribute="leading" secondItem="sPd-hq-MDj" secondAttribute="leadingMargin" constant="-20" id="q99-hS-00b"/>
+                            <constraint firstItem="4ab-bV-4G1" firstAttribute="centerY" secondItem="sPd-hq-MDj" secondAttribute="centerY" id="xPv-pq-inB"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="7Aj-Py-FFL"/>
                                 <exclude reference="CQM-Rv-xAc"/>
+                                <exclude reference="4ab-bV-4G1"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="MFv-sh-CNh"/>
                                 <exclude reference="a4b-hB-Ihj"/>
                                 <exclude reference="q99-hS-00b"/>
+                                <exclude reference="heu-t9-DCi"/>
+                                <exclude reference="xPv-pq-inB"/>
                                 <exclude reference="dX0-UE-BXH"/>
                                 <exclude reference="Ccc-vY-l8h"/>
                                 <exclude reference="SDj-WC-zpB"/>
@@ -697,11 +711,14 @@
                             <mask key="subviews">
                                 <include reference="7Aj-Py-FFL"/>
                                 <include reference="CQM-Rv-xAc"/>
+                                <include reference="4ab-bV-4G1"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="MFv-sh-CNh"/>
                                 <exclude reference="a4b-hB-Ihj"/>
                                 <exclude reference="q99-hS-00b"/>
+                                <include reference="heu-t9-DCi"/>
+                                <include reference="xPv-pq-inB"/>
                                 <include reference="dX0-UE-BXH"/>
                                 <exclude reference="Ccc-vY-l8h"/>
                                 <include reference="SDj-WC-zpB"/>
@@ -709,10 +726,18 @@
                         </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="gf8-aT-wjV"/>
-                    <navigationItem key="navigationItem" title="今日报纸" id="chH-OR-ofJ"/>
+                    <navigationItem key="navigationItem" title="今日报纸" id="chH-OR-ofJ">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="z4V-hK-Xkx">
+                            <connections>
+                                <action selector="refresh:" destination="mPS-ad-WrO" id="kky-Yu-geV"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
+                        <outlet property="loadingIndicator" destination="4ab-bV-4G1" id="waT-eN-bog"/>
                         <outlet property="pageControl" destination="7Aj-Py-FFL" id="P4V-KG-vBF"/>
                         <outlet property="scrollView" destination="CQM-Rv-xAc" id="mgD-uc-ZG2"/>
+                        <segue destination="Yui-0H-L6V" kind="show" identifier="entry" id="XSL-7b-3UM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pJO-zW-9Pi" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -747,6 +772,7 @@
         <image name="News" width="60" height="60"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="QOE-Qa-MvX"/>
+        <segue reference="XSL-7b-3UM"/>
+        <segue reference="rsg-Y1-Ycg"/>
     </inferredMetricsTieBreakers>
 </document>

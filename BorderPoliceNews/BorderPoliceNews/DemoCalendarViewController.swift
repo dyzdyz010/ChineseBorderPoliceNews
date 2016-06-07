@@ -39,6 +39,10 @@ class DemoCalendarViewController: UIViewController {
         menuView.commitMenuViewUpdate()
     }
     
+    @IBAction func refresh(sender: AnyObject) {
+        checkPaper()
+    }
+    
     func beginLoading() {
         self.isLoading = true
         self.loadingIndicator.hidden = !isLoading
@@ -75,8 +79,8 @@ class DemoCalendarViewController: UIViewController {
                 }
                 
                 if exists {
-//                    print(date.day)
-//                    self.papersForMonth?.insert(true, atIndex: date.day-1)
+                    //                    print(date.day)
+                    //                    self.papersForMonth?.insert(true, atIndex: date.day-1)
                     self.papersForMonth![date.day-1] = true
                 }
                 taskCount -= 1
@@ -108,7 +112,7 @@ extension DemoCalendarViewController: CVCalendarViewDelegate, CVCalendarMenuView
     }
     
     func shouldShowWeekdaysOut() -> Bool {
-//        print("hhahahahhahahaah")
+        //        print("hhahahahhahahaah")
         return false
     }
     
@@ -126,26 +130,26 @@ extension DemoCalendarViewController: CVCalendarViewDelegate, CVCalendarMenuView
         if dayView.date.month != dateManager?.currentDate.month {
             return false
         }
-//        print("shouldShowOnDayView")
-//        print(dayView.date.day)
+        //        print("shouldShowOnDayView")
+        //        print(dayView.date.day)
         if papersForMonth == nil {
             return false
         }
         let date = dayView.date
         if papersForMonth![date.day-1] && dateManager?.currentDate.month == date.month  {
-//            print("Event")
+            //            print("Event")
             return true
         }
-
+        
         return false
         
-//        Paper.checkPaperAvailability(dayView.date.convertedDate()!) { (exists, _) in
-//            if exists {
-//                dayView.backgroundColor = UIColor.redColor()
-//            }
-//        }
-//        
-//        return false
+        //        Paper.checkPaperAvailability(dayView.date.convertedDate()!) { (exists, _) in
+        //            if exists {
+        //                dayView.backgroundColor = UIColor.redColor()
+        //            }
+        //        }
+        //        
+        //        return false
     }
     
     func dotMarker(colorOnDayView dayView: DayView) -> [UIColor] {
@@ -163,7 +167,7 @@ extension DemoCalendarViewController: CVCalendarViewDelegate, CVCalendarMenuView
         let date = dayView.date
         if papersForMonth![date.day-1] && dateManager?.currentDate.month == date.month && !isLoading  {
             //            print("Event")
-//            print(NSDate(year: date.year, month: date.month, day: date.day))
+            //            print(NSDate(year: date.year, month: date.month, day: date.day))
             //        let date =
             performSegueWithIdentifier("paper", sender: dayView.date.convertedDate()!)
             
@@ -176,7 +180,7 @@ extension DemoCalendarViewController: CVCalendarViewDelegate, CVCalendarMenuView
     }
     
     func didShowPreviousMonthView(date: NSDate) {
-//        print(date.month)
+        //        print(date.month)
         dateManager?.currentDate = date
         checkPaper()
     }
@@ -187,7 +191,7 @@ extension DemoCalendarViewController: CVCalendarViewDelegate, CVCalendarMenuView
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "paper" {
-            let vc = segue.destinationViewController as! HomeViewController
+            let vc = segue.destinationViewController as! PaperViewController
             let date = sender as! NSDate
             vc.date = date
         }

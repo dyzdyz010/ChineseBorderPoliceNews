@@ -11,6 +11,7 @@ import Kanna
 
 extension Page {
     func parseEntries(doc: HTMLDocument) {
+        self.entries.removeAll()
         
         var index = 1
         for area in doc.xpath("//map//area") {
@@ -26,11 +27,11 @@ extension Page {
                 entry.points.append(p)
                 j += 2
             }
-            
+            //            print(entry.points)
             
             let title = area["tooltip"]!
             let href = area["href"]!
-            let link = self.baseUrl + "/Html" + href.substringFromIndex(href.startIndex.advancedBy(3))
+            let link = self.baseUrl + "/Html/" + href.substringFromIndex(href.startIndex.advancedBy(3))
             
             entry.title = title
             entry.link = link

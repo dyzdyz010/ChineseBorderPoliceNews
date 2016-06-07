@@ -20,6 +20,7 @@
 		64161F6B1CB4FB14003BFC7A /* UMSocialSDKResourcesNew.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 64161F5F1CB4FB14003BFC7A /* UMSocialSDKResourcesNew.bundle */; };
 		64161F6D1CB4FB29003BFC7A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64161F6C1CB4FB29003BFC7A /* SystemConfiguration.framework */; };
 		641E3AE61CAAA322009F8BE5 /* BTNavigationDropdownMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 641E3AE51CAAA322009F8BE5 /* BTNavigationDropdownMenu.bundle */; };
+		6458A1BF1CE978610088B3C0 /* ClickableAreaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6458A1BE1CE978610088B3C0 /* ClickableAreaButton.swift */; };
 		646DE3911CB503AA00C56CA8 /* libSocialSinaSSO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 646DE3771CB503AA00C56CA8 /* libSocialSinaSSO.a */; };
 		646DE3921CB503AA00C56CA8 /* libWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 646DE3781CB503AA00C56CA8 /* libWeiboSDK.a */; };
 		646DE3931CB503AA00C56CA8 /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 646DE3821CB503AA00C56CA8 /* WeiboSDK.bundle */; };
@@ -103,6 +104,7 @@
 		64161F6C1CB4FB29003BFC7A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		64161F6E1CB4FC4D003BFC7A /* BorderPoliceNews-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BorderPoliceNews-Bridging-Header.h"; sourceTree = "<group>"; };
 		641E3AE51CAAA322009F8BE5 /* BTNavigationDropdownMenu.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BTNavigationDropdownMenu.bundle; sourceTree = "<group>"; };
+		6458A1BE1CE978610088B3C0 /* ClickableAreaButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClickableAreaButton.swift; sourceTree = "<group>"; };
 		646DE3771CB503AA00C56CA8 /* libSocialSinaSSO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialSinaSSO.a; sourceTree = "<group>"; };
 		646DE3781CB503AA00C56CA8 /* libWeiboSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeiboSDK.a; sourceTree = "<group>"; };
 		646DE3791CB503AA00C56CA8 /* UMSocialSinaSSOHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSinaSSOHandler.h; sourceTree = "<group>"; };
@@ -382,6 +384,7 @@
 		64DFACB11CAAA1C9003125F8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6458A1BE1CE978610088B3C0 /* ClickableAreaButton.swift */,
 				64DFACB21CAAA1D3003125F8 /* EntryCell.swift */,
 			);
 			name = Views;
@@ -588,6 +591,7 @@
 				64DFACB81CAAA1DF003125F8 /* Entry.swift in Sources */,
 				64DFACBF1CAAA1EA003125F8 /* BTNavigationDropdownMenu.swift in Sources */,
 				64DFACAE1CAAA196003125F8 /* HomeViewController.swift in Sources */,
+				6458A1BF1CE978610088B3C0 /* ClickableAreaButton.swift in Sources */,
 				64DFACB31CAAA1D3003125F8 /* EntryCell.swift in Sources */,
 				64DFACAA1CAAA196003125F8 /* DemoCalendarViewController.swift in Sources */,
 				64DFACBA1CAAA1DF003125F8 /* Page.swift in Sources */,

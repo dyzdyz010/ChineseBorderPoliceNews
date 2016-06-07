@@ -33,7 +33,7 @@ class Entry: NSObject {
     }
     
     func reload(completionHandler: () -> Void) {
-        //        print(self.link)
+        print(self.link)
         
         let encoding = CFStringConvertEncodingToNSStringEncoding(UInt32(CFStringEncodings.GB_18030_2000.rawValue))
         
