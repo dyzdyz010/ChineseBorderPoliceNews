@@ -33,7 +33,7 @@ class EntryViewController: UIViewController {
         
         if entry?.author == "载入中" {
             entry?.reload(){
-                print(self.entry?.subtitles.count)
+//                print(self.entry?.subtitles.count)
                 self.makeContent()
             }
         } else {

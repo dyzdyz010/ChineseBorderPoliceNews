@@ -115,7 +115,7 @@ class PaperViewController: UIViewController, UIScrollViewDelegate, EntryDelegate
         
         for entry in page.entries {
             let pts = entry.points
-            print(pts)
+//            print(pts)
             let origin = CGPoint(x: pts[0].x, y: pts[0].y + 40)
             var normPoints = [CGPoint]()
             normPoints.append(origin)
@@ -140,7 +140,7 @@ class PaperViewController: UIViewController, UIScrollViewDelegate, EntryDelegate
     }
     
     func entryClicked(sender: UIButton) {
-        print(sender.tag)
+//        print(sender.tag)
         let entry = self.paper?.pages[self.pageControl.currentPage].entries[sender.tag]
         self.performSegueWithIdentifier("entry", sender: entry)
         

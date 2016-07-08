@@ -39,26 +39,8 @@ class Page: NSObject {
                 let thumbEle = doc.at_xpath("//div[@class='map']//img")!
                 let urlTemp = thumbEle["src"]!
                 let thumbUrl = self.baseUrl + urlTemp.substringFromIndex(urlTemp.startIndex.advancedBy(5))
-                print(thumbUrl)
+//                print(thumbUrl)
                 self.thumbUrl = thumbUrl
-                
-                //                // Entries
-                //                self.entries.removeAll()
-                //                for a in doc.xpath("//ul[@class='pl10 pr10']//a") {
-                //                    let urlComp = a["href"]!
-                //                    let titleStr = a.text!
-                //                    let index = Int(titleStr.substringToIndex(titleStr.startIndex.advancedBy(2)))!
-                //                    let title = titleStr.substringFromIndex(titleStr.startIndex.advancedBy(3))
-                //                    //                    print("\(index): \(title)")
-                //                    
-                //                    let entry = Entry()
-                //                    entry.index = index
-                //                    entry.title = title
-                //                    entry.link = self.baseUrl + "/Html" + urlComp.substringFromIndex(urlComp.startIndex.advancedBy(2))
-                //                    //                    print(entry.link)
-                //                    self.entries.append(entry)
-                //                }
-                //                print(page.entries.count)
                 
                 // Load clickable areas
                 self.parseEntries(doc)
