@@ -16,6 +16,11 @@
 		645D63BE1EE41E9D00044EA3 /* BorderPoliceNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D63BD1EE41E9D00044EA3 /* BorderPoliceNewsUITests.swift */; };
 		64DB25A61EE423220048DD96 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DB25A41EE423220048DD96 /* Fabric.framework */; };
 		64DB25A71EE423220048DD96 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DB25A51EE423220048DD96 /* Crashlytics.framework */; };
+		64DB25A91EE456040048DD96 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DB25A81EE456040048DD96 /* Moya.framework */; };
+		64DB25AD1EE456130048DD96 /* AEXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DB25AA1EE456130048DD96 /* AEXML.framework */; };
+		64DB25AE1EE456130048DD96 /* CircleMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DB25AB1EE456130048DD96 /* CircleMenu.framework */; };
+		64DB25AF1EE456130048DD96 /* JTAppleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DB25AC1EE456130048DD96 /* JTAppleCalendar.framework */; };
+		64DB25B21EE4596B0048DD96 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DB25B11EE4596B0048DD96 /* Endpoints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		645D63BF1EE41E9D00044EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64DB25A41EE423220048DD96 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
 		64DB25A51EE423220048DD96 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
+		64DB25A81EE456040048DD96 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = SOURCE_ROOT; };
+		64DB25AA1EE456130048DD96 /* AEXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AEXML.framework; path = Carthage/Build/iOS/AEXML.framework; sourceTree = SOURCE_ROOT; };
+		64DB25AB1EE456130048DD96 /* CircleMenu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CircleMenu.framework; path = Carthage/Build/iOS/CircleMenu.framework; sourceTree = SOURCE_ROOT; };
+		64DB25AC1EE456130048DD96 /* JTAppleCalendar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JTAppleCalendar.framework; path = Carthage/Build/iOS/JTAppleCalendar.framework; sourceTree = SOURCE_ROOT; };
+		64DB25B11EE4596B0048DD96 /* Endpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				64DB25A71EE423220048DD96 /* Crashlytics.framework in Frameworks */,
+				64DB25AF1EE456130048DD96 /* JTAppleCalendar.framework in Frameworks */,
+				64DB25A91EE456040048DD96 /* Moya.framework in Frameworks */,
+				64DB25AE1EE456130048DD96 /* CircleMenu.framework in Frameworks */,
+				64DB25AD1EE456130048DD96 /* AEXML.framework in Frameworks */,
 				64DB25A61EE423220048DD96 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,13 +117,14 @@
 		645D639C1EE41E9D00044EA3 /* BorderPoliceNews */ = {
 			isa = PBXGroup;
 			children = (
-				64AAD72C1EE42017004DAC09 /* Frameworks */,
+				64DB25B01EE4594F0048DD96 /* Network */,
 				645D639D1EE41E9D00044EA3 /* AppDelegate.swift */,
 				645D639F1EE41E9D00044EA3 /* ViewController.swift */,
 				645D63A11EE41E9D00044EA3 /* Main.storyboard */,
 				645D63A41EE41E9D00044EA3 /* Assets.xcassets */,
 				645D63A61EE41E9D00044EA3 /* LaunchScreen.storyboard */,
 				645D63A91EE41E9D00044EA3 /* Info.plist */,
+				64AAD72C1EE42017004DAC09 /* Frameworks */,
 			);
 			path = BorderPoliceNews;
 			sourceTree = "<group>";
@@ -135,10 +150,22 @@
 		64AAD72C1EE42017004DAC09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				64DB25AA1EE456130048DD96 /* AEXML.framework */,
+				64DB25AB1EE456130048DD96 /* CircleMenu.framework */,
+				64DB25AC1EE456130048DD96 /* JTAppleCalendar.framework */,
+				64DB25A81EE456040048DD96 /* Moya.framework */,
 				64DB25A41EE423220048DD96 /* Fabric.framework */,
 				64DB25A51EE423220048DD96 /* Crashlytics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64DB25B01EE4594F0048DD96 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				64DB25B11EE4596B0048DD96 /* Endpoints.swift */,
+			);
+			name = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				645D63A01EE41E9D00044EA3 /* ViewController.swift in Sources */,
+				64DB25B21EE4596B0048DD96 /* Endpoints.swift in Sources */,
 				645D639E1EE41E9D00044EA3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -453,6 +481,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/BorderPoliceNews",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = BorderPoliceNews/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -472,6 +501,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/BorderPoliceNews",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = BorderPoliceNews/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
