@@ -14,8 +14,8 @@
 		645D63A81EE41E9D00044EA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 645D63A61EE41E9D00044EA3 /* LaunchScreen.storyboard */; };
 		645D63B31EE41E9D00044EA3 /* BorderPoliceNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D63B21EE41E9D00044EA3 /* BorderPoliceNewsTests.swift */; };
 		645D63BE1EE41E9D00044EA3 /* BorderPoliceNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D63BD1EE41E9D00044EA3 /* BorderPoliceNewsUITests.swift */; };
-		64AAD72F1EE42020004DAC09 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AAD72D1EE42020004DAC09 /* Fabric.framework */; };
-		64AAD7301EE42020004DAC09 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AAD72E1EE42020004DAC09 /* Crashlytics.framework */; };
+		64DB25A61EE423220048DD96 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DB25A41EE423220048DD96 /* Fabric.framework */; };
+		64DB25A71EE423220048DD96 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DB25A51EE423220048DD96 /* Crashlytics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +49,8 @@
 		645D63B91EE41E9D00044EA3 /* BorderPoliceNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BorderPoliceNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		645D63BD1EE41E9D00044EA3 /* BorderPoliceNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderPoliceNewsUITests.swift; sourceTree = "<group>"; };
 		645D63BF1EE41E9D00044EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		64AAD72D1EE42020004DAC09 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
-		64AAD72E1EE42020004DAC09 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
+		64DB25A41EE423220048DD96 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
+		64DB25A51EE423220048DD96 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64AAD7301EE42020004DAC09 /* Crashlytics.framework in Frameworks */,
-				64AAD72F1EE42020004DAC09 /* Fabric.framework in Frameworks */,
+				64DB25A71EE423220048DD96 /* Crashlytics.framework in Frameworks */,
+				64DB25A61EE423220048DD96 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +135,8 @@
 		64AAD72C1EE42017004DAC09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				64AAD72D1EE42020004DAC09 /* Fabric.framework */,
-				64AAD72E1EE42020004DAC09 /* Crashlytics.framework */,
+				64DB25A41EE423220048DD96 /* Fabric.framework */,
+				64DB25A51EE423220048DD96 /* Crashlytics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -151,7 +151,7 @@
 				645D63961EE41E9D00044EA3 /* Sources */,
 				645D63971EE41E9D00044EA3 /* Frameworks */,
 				645D63981EE41E9D00044EA3 /* Resources */,
-				64AAD7261EE41F8E004DAC09 /* ShellScript */,
+				64DB25A31EE422B10048DD96 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -275,7 +275,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		64AAD7261EE41F8E004DAC09 /* ShellScript */ = {
+		64DB25A31EE422B10048DD96 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
