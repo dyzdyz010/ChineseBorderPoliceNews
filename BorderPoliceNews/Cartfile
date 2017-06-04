@@ -1,0 +1,5 @@
+github "Moya/Moya"
+github "patchthecode/JTAppleCalendar" ~> 7.0
+github "tadija/AEXML"
+github "Ramotion/circle-menu"
+github "tristanhimmelman/HidingNavigationBar" ~> 1.0

@@ -48,9 +48,9 @@ Pods/
 # Carthage
 #
 # Add this line if you want to avoid checking in source code from Carthage dependencies.
-# Carthage/Checkouts
+BorderPoliceNews/Carthage/Checkouts
 
-Carthage/Build
+BorderPoliceNews/Carthage/Build
 
 # fastlane
 #
