@@ -7,402 +7,136 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		64161F611CB4FB14003BFC7A /* UMSocialLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64161F471CB4FB14003BFC7A /* UMSocialLocalizable.strings */; };
-		64161F621CB4FB14003BFC7A /* libUMSocial_Sdk_5.0.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64161F551CB4FB14003BFC7A /* libUMSocial_Sdk_5.0.1.a */; };
-		64161F631CB4FB14003BFC7A /* UMSCommentDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64161F571CB4FB14003BFC7A /* UMSCommentDetailController.xib */; };
-		64161F641CB4FB14003BFC7A /* UMSCommentInputController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64161F581CB4FB14003BFC7A /* UMSCommentInputController.xib */; };
-		64161F651CB4FB14003BFC7A /* UMSCommentInputControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64161F591CB4FB14003BFC7A /* UMSCommentInputControlleriPad.xib */; };
-		64161F661CB4FB14003BFC7A /* UMShareEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64161F5A1CB4FB14003BFC7A /* UMShareEditViewController.xib */; };
-		64161F671CB4FB14003BFC7A /* UMShareEditViewControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64161F5B1CB4FB14003BFC7A /* UMShareEditViewControlleriPad.xib */; };
-		64161F681CB4FB14003BFC7A /* UMSLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64161F5C1CB4FB14003BFC7A /* UMSLoginViewController.xib */; };
-		64161F691CB4FB14003BFC7A /* UMSnsAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64161F5D1CB4FB14003BFC7A /* UMSnsAccountViewController.xib */; };
-		64161F6A1CB4FB14003BFC7A /* UMSShareListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64161F5E1CB4FB14003BFC7A /* UMSShareListController.xib */; };
-		64161F6B1CB4FB14003BFC7A /* UMSocialSDKResourcesNew.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 64161F5F1CB4FB14003BFC7A /* UMSocialSDKResourcesNew.bundle */; };
-		64161F6D1CB4FB29003BFC7A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64161F6C1CB4FB29003BFC7A /* SystemConfiguration.framework */; };
-		641E3AE61CAAA322009F8BE5 /* BTNavigationDropdownMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 641E3AE51CAAA322009F8BE5 /* BTNavigationDropdownMenu.bundle */; };
-		6458A1BF1CE978610088B3C0 /* ClickableAreaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6458A1BE1CE978610088B3C0 /* ClickableAreaButton.swift */; };
-		646DE3911CB503AA00C56CA8 /* libSocialSinaSSO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 646DE3771CB503AA00C56CA8 /* libSocialSinaSSO.a */; };
-		646DE3921CB503AA00C56CA8 /* libWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 646DE3781CB503AA00C56CA8 /* libWeiboSDK.a */; };
-		646DE3931CB503AA00C56CA8 /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 646DE3821CB503AA00C56CA8 /* WeiboSDK.bundle */; };
-		646DE3941CB503AA00C56CA8 /* libSocialQQ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 646DE3861CB503AA00C56CA8 /* libSocialQQ.a */; };
-		646DE3951CB503AA00C56CA8 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646DE3871CB503AA00C56CA8 /* TencentOpenAPI.framework */; };
-		646DE3961CB503AA00C56CA8 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 646DE3881CB503AA00C56CA8 /* TencentOpenApi_IOS_Bundle.bundle */; };
-		646DE3971CB503AA00C56CA8 /* libSocialWechat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 646DE38B1CB503AA00C56CA8 /* libSocialWechat.a */; };
-		646DE3981CB503AA00C56CA8 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 646DE38C1CB503AA00C56CA8 /* libWeChatSDK.a */; };
-		646DE39A1CB503D300C56CA8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646DE3991CB503D300C56CA8 /* Security.framework */; };
-		646DE39C1CB503E000C56CA8 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 646DE39B1CB503E000C56CA8 /* libiconv.tbd */; };
-		646DE39E1CB503EE00C56CA8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646DE39D1CB503EE00C56CA8 /* CoreGraphics.framework */; };
-		646DE3A01CB503F600C56CA8 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 646DE39F1CB503F600C56CA8 /* libsqlite3.tbd */; };
-		646DE3A21CB5040000C56CA8 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646DE3A11CB5040000C56CA8 /* CoreTelephony.framework */; };
-		646DE3A41CB5040A00C56CA8 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 646DE3A31CB5040A00C56CA8 /* libstdc++.tbd */; };
-		646DE3A61CB5041700C56CA8 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 646DE3A51CB5041700C56CA8 /* libz.tbd */; };
-		647F240F1CC464610090DCE2 /* PaperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647F240E1CC464610090DCE2 /* PaperViewController.swift */; };
-		648F86A31CAAA4A80013EEA9 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 648F86A11CAAA4A80013EEA9 /* Fabric.framework */; };
-		648F86A41CAAA4A80013EEA9 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 648F86A21CAAA4A80013EEA9 /* Crashlytics.framework */; };
-		64920C6B1CAA9EB1006D1307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64920C6A1CAA9EB1006D1307 /* AppDelegate.swift */; };
-		64920C701CAA9EB1006D1307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64920C6E1CAA9EB1006D1307 /* Main.storyboard */; };
-		64920C721CAA9EB1006D1307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64920C711CAA9EB1006D1307 /* Assets.xcassets */; };
-		64920C751CAA9EB1006D1307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64920C731CAA9EB1006D1307 /* LaunchScreen.storyboard */; };
-		64920C801CAA9EB2006D1307 /* BorderPoliceNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64920C7F1CAA9EB2006D1307 /* BorderPoliceNewsTests.swift */; };
-		649397FF1CE1DFF70062B10D /* Page+DomOps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649397FE1CE1DFF70062B10D /* Page+DomOps.swift */; };
-		64BBF1601CACB1AB00FCDCBA /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9DC5B7CC9EE95D7CDBEC26 /* Pods.framework */; };
-		64BBF1611CACB1EA00FCDCBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64920C6A1CAA9EB1006D1307 /* AppDelegate.swift */; };
-		64DFACAA1CAAA196003125F8 /* DemoCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DFACA71CAAA196003125F8 /* DemoCalendarViewController.swift */; };
-		64DFACAB1CAAA196003125F8 /* DemoCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DFACA71CAAA196003125F8 /* DemoCalendarViewController.swift */; };
-		64DFACAC1CAAA196003125F8 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DFACA81CAAA196003125F8 /* EntryViewController.swift */; };
-		64DFACAD1CAAA196003125F8 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DFACA81CAAA196003125F8 /* EntryViewController.swift */; };
-		64DFACAE1CAAA196003125F8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DFACA91CAAA196003125F8 /* HomeViewController.swift */; };
-		64DFACAF1CAAA196003125F8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DFACA91CAAA196003125F8 /* HomeViewController.swift */; };
-		64DFACB31CAAA1D3003125F8 /* EntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DFACB21CAAA1D3003125F8 /* EntryCell.swift */; };
-		64DFACB41CAAA1D3003125F8 /* EntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DFACB21CAAA1D3003125F8 /* EntryCell.swift */; };
-		64DFACB81CAAA1DF003125F8 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DFACB51CAAA1DF003125F8 /* Entry.swift */; };
-		64DFACB91CAAA1DF003125F8 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DFACB51CAAA1DF003125F8 /* Entry.swift */; };
-		64DFACBA1CAAA1DF003125F8 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DFACB61CAAA1DF003125F8 /* Page.swift */; };
-		64DFACBB1CAAA1DF003125F8 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DFACB61CAAA1DF003125F8 /* Page.swift */; };
-		64DFACBC1CAAA1DF003125F8 /* Paper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DFACB71CAAA1DF003125F8 /* Paper.swift */; };
-		64DFACBD1CAAA1DF003125F8 /* Paper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DFACB71CAAA1DF003125F8 /* Paper.swift */; };
-		64DFACBF1CAAA1EA003125F8 /* BTNavigationDropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DFACBE1CAAA1EA003125F8 /* BTNavigationDropdownMenu.swift */; };
-		64DFACC01CAAA1EA003125F8 /* BTNavigationDropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DFACBE1CAAA1EA003125F8 /* BTNavigationDropdownMenu.swift */; };
-		C2A01159C4F0479A17FBC9D0 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9DC5B7CC9EE95D7CDBEC26 /* Pods.framework */; };
+		645D639E1EE41E9D00044EA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D639D1EE41E9D00044EA3 /* AppDelegate.swift */; };
+		645D63A01EE41E9D00044EA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D639F1EE41E9D00044EA3 /* ViewController.swift */; };
+		645D63A31EE41E9D00044EA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 645D63A11EE41E9D00044EA3 /* Main.storyboard */; };
+		645D63A51EE41E9D00044EA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 645D63A41EE41E9D00044EA3 /* Assets.xcassets */; };
+		645D63A81EE41E9D00044EA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 645D63A61EE41E9D00044EA3 /* LaunchScreen.storyboard */; };
+		645D63B31EE41E9D00044EA3 /* BorderPoliceNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D63B21EE41E9D00044EA3 /* BorderPoliceNewsTests.swift */; };
+		645D63BE1EE41E9D00044EA3 /* BorderPoliceNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D63BD1EE41E9D00044EA3 /* BorderPoliceNewsUITests.swift */; };
+		64AAD72F1EE42020004DAC09 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AAD72D1EE42020004DAC09 /* Fabric.framework */; };
+		64AAD7301EE42020004DAC09 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AAD72E1EE42020004DAC09 /* Crashlytics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		64920C7C1CAA9EB2006D1307 /* PBXContainerItemProxy */ = {
+		645D63AF1EE41E9D00044EA3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 64920C5F1CAA9EB1006D1307 /* Project object */;
+			containerPortal = 645D63921EE41E9D00044EA3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 64920C661CAA9EB1006D1307;
+			remoteGlobalIDString = 645D63991EE41E9D00044EA3;
+			remoteInfo = BorderPoliceNews;
+		};
+		645D63BA1EE41E9D00044EA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 645D63921EE41E9D00044EA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 645D63991EE41E9D00044EA3;
 			remoteInfo = BorderPoliceNews;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		46137AF783AF264CD60A81AB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		64161F481CB4FB14003BFC7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/UMSocialLocalizable.strings; sourceTree = "<group>"; };
-		64161F4A1CB4FB14003BFC7A /* UMSocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocial.h; sourceTree = "<group>"; };
-		64161F4B1CB4FB14003BFC7A /* UMSocialAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialAccountManager.h; sourceTree = "<group>"; };
-		64161F4C1CB4FB14003BFC7A /* UMSocialBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialBar.h; sourceTree = "<group>"; };
-		64161F4D1CB4FB14003BFC7A /* UMSocialConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialConfig.h; sourceTree = "<group>"; };
-		64161F4E1CB4FB14003BFC7A /* UMSocialControllerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialControllerService.h; sourceTree = "<group>"; };
-		64161F4F1CB4FB14003BFC7A /* UMSocialControllerServiceComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialControllerServiceComment.h; sourceTree = "<group>"; };
-		64161F501CB4FB14003BFC7A /* UMSocialData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialData.h; sourceTree = "<group>"; };
-		64161F511CB4FB14003BFC7A /* UMSocialDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialDataService.h; sourceTree = "<group>"; };
-		64161F521CB4FB14003BFC7A /* UMSocialSnsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsData.h; sourceTree = "<group>"; };
-		64161F531CB4FB14003BFC7A /* UMSocialSnsPlatformManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsPlatformManager.h; sourceTree = "<group>"; };
-		64161F541CB4FB14003BFC7A /* UMSocialSnsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsService.h; sourceTree = "<group>"; };
-		64161F551CB4FB14003BFC7A /* libUMSocial_Sdk_5.0.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocial_Sdk_5.0.1.a; sourceTree = "<group>"; };
-		64161F571CB4FB14003BFC7A /* UMSCommentDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentDetailController.xib; sourceTree = "<group>"; };
-		64161F581CB4FB14003BFC7A /* UMSCommentInputController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentInputController.xib; sourceTree = "<group>"; };
-		64161F591CB4FB14003BFC7A /* UMSCommentInputControlleriPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentInputControlleriPad.xib; sourceTree = "<group>"; };
-		64161F5A1CB4FB14003BFC7A /* UMShareEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMShareEditViewController.xib; sourceTree = "<group>"; };
-		64161F5B1CB4FB14003BFC7A /* UMShareEditViewControlleriPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMShareEditViewControlleriPad.xib; sourceTree = "<group>"; };
-		64161F5C1CB4FB14003BFC7A /* UMSLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSLoginViewController.xib; sourceTree = "<group>"; };
-		64161F5D1CB4FB14003BFC7A /* UMSnsAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSnsAccountViewController.xib; sourceTree = "<group>"; };
-		64161F5E1CB4FB14003BFC7A /* UMSShareListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSShareListController.xib; sourceTree = "<group>"; };
-		64161F5F1CB4FB14003BFC7A /* UMSocialSDKResourcesNew.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResourcesNew.bundle; sourceTree = "<group>"; };
-		64161F601CB4FB14003BFC7A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/UMSocialLocalizable.strings"; sourceTree = "<group>"; };
-		64161F6C1CB4FB29003BFC7A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		64161F6E1CB4FC4D003BFC7A /* BorderPoliceNews-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BorderPoliceNews-Bridging-Header.h"; sourceTree = "<group>"; };
-		641E3AE51CAAA322009F8BE5 /* BTNavigationDropdownMenu.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BTNavigationDropdownMenu.bundle; sourceTree = "<group>"; };
-		6458A1BE1CE978610088B3C0 /* ClickableAreaButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClickableAreaButton.swift; sourceTree = "<group>"; };
-		646DE3771CB503AA00C56CA8 /* libSocialSinaSSO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialSinaSSO.a; sourceTree = "<group>"; };
-		646DE3781CB503AA00C56CA8 /* libWeiboSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeiboSDK.a; sourceTree = "<group>"; };
-		646DE3791CB503AA00C56CA8 /* UMSocialSinaSSOHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSinaSSOHandler.h; sourceTree = "<group>"; };
-		646DE37A1CB503AA00C56CA8 /* WBHttpRequest+WeiboGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboGame.h"; sourceTree = "<group>"; };
-		646DE37B1CB503AA00C56CA8 /* WBHttpRequest+WeiboShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboShare.h"; sourceTree = "<group>"; };
-		646DE37C1CB503AA00C56CA8 /* WBHttpRequest+WeiboToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboToken.h"; sourceTree = "<group>"; };
-		646DE37D1CB503AA00C56CA8 /* WBHttpRequest+WeiboUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboUser.h"; sourceTree = "<group>"; };
-		646DE37E1CB503AA00C56CA8 /* WBHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBHttpRequest.h; sourceTree = "<group>"; };
-		646DE37F1CB503AA00C56CA8 /* WBSDKBasicButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSDKBasicButton.h; sourceTree = "<group>"; };
-		646DE3801CB503AA00C56CA8 /* WBSDKCommentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSDKCommentButton.h; sourceTree = "<group>"; };
-		646DE3811CB503AA00C56CA8 /* WBSDKRelationshipButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSDKRelationshipButton.h; sourceTree = "<group>"; };
-		646DE3821CB503AA00C56CA8 /* WeiboSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WeiboSDK.bundle; sourceTree = "<group>"; };
-		646DE3831CB503AA00C56CA8 /* WeiboSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboSDK.h; sourceTree = "<group>"; };
-		646DE3841CB503AA00C56CA8 /* WeiboUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboUser.h; sourceTree = "<group>"; };
-		646DE3861CB503AA00C56CA8 /* libSocialQQ.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialQQ.a; sourceTree = "<group>"; };
-		646DE3871CB503AA00C56CA8 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
-		646DE3881CB503AA00C56CA8 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
-		646DE3891CB503AA00C56CA8 /* UMSocialQQHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialQQHandler.h; sourceTree = "<group>"; };
-		646DE38B1CB503AA00C56CA8 /* libSocialWechat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialWechat.a; sourceTree = "<group>"; };
-		646DE38C1CB503AA00C56CA8 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
-		646DE38D1CB503AA00C56CA8 /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialWechatHandler.h; sourceTree = "<group>"; };
-		646DE38E1CB503AA00C56CA8 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
-		646DE38F1CB503AA00C56CA8 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
-		646DE3901CB503AA00C56CA8 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
-		646DE3991CB503D300C56CA8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		646DE39B1CB503E000C56CA8 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
-		646DE39D1CB503EE00C56CA8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		646DE39F1CB503F600C56CA8 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		646DE3A11CB5040000C56CA8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		646DE3A31CB5040A00C56CA8 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
-		646DE3A51CB5041700C56CA8 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		647F240E1CC464610090DCE2 /* PaperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaperViewController.swift; sourceTree = "<group>"; };
-		648F86A11CAAA4A80013EEA9 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
-		648F86A21CAAA4A80013EEA9 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
-		64920C671CAA9EB1006D1307 /* 边防警察报.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "边防警察报.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		64920C6A1CAA9EB1006D1307 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		64920C6F1CAA9EB1006D1307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		64920C711CAA9EB1006D1307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		64920C741CAA9EB1006D1307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		64920C761CAA9EB1006D1307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		64920C7B1CAA9EB2006D1307 /* BorderPoliceNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BorderPoliceNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		64920C7F1CAA9EB2006D1307 /* BorderPoliceNewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderPoliceNewsTests.swift; sourceTree = "<group>"; };
-		64920C811CAA9EB2006D1307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		649397FE1CE1DFF70062B10D /* Page+DomOps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Page+DomOps.swift"; sourceTree = "<group>"; };
-		64C432BC1CAE237100D2E997 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
-		64DFACA71CAAA196003125F8 /* DemoCalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoCalendarViewController.swift; sourceTree = "<group>"; };
-		64DFACA81CAAA196003125F8 /* EntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
-		64DFACA91CAAA196003125F8 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		64DFACB21CAAA1D3003125F8 /* EntryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryCell.swift; sourceTree = "<group>"; };
-		64DFACB51CAAA1DF003125F8 /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
-		64DFACB61CAAA1DF003125F8 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
-		64DFACB71CAAA1DF003125F8 /* Paper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paper.swift; sourceTree = "<group>"; };
-		64DFACBE1CAAA1EA003125F8 /* BTNavigationDropdownMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTNavigationDropdownMenu.swift; sourceTree = "<group>"; };
-		837FAA935DBF05108BAF8621 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		9A9DC5B7CC9EE95D7CDBEC26 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		645D639A1EE41E9D00044EA3 /* BorderPoliceNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BorderPoliceNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		645D639D1EE41E9D00044EA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		645D639F1EE41E9D00044EA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		645D63A21EE41E9D00044EA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		645D63A41EE41E9D00044EA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		645D63A71EE41E9D00044EA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		645D63A91EE41E9D00044EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		645D63AE1EE41E9D00044EA3 /* BorderPoliceNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BorderPoliceNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		645D63B21EE41E9D00044EA3 /* BorderPoliceNewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderPoliceNewsTests.swift; sourceTree = "<group>"; };
+		645D63B41EE41E9D00044EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		645D63B91EE41E9D00044EA3 /* BorderPoliceNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BorderPoliceNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		645D63BD1EE41E9D00044EA3 /* BorderPoliceNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderPoliceNewsUITests.swift; sourceTree = "<group>"; };
+		645D63BF1EE41E9D00044EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64AAD72D1EE42020004DAC09 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
+		64AAD72E1EE42020004DAC09 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		64920C641CAA9EB1006D1307 /* Frameworks */ = {
+		645D63971EE41E9D00044EA3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				646DE3A61CB5041700C56CA8 /* libz.tbd in Frameworks */,
-				646DE3A41CB5040A00C56CA8 /* libstdc++.tbd in Frameworks */,
-				646DE3A21CB5040000C56CA8 /* CoreTelephony.framework in Frameworks */,
-				646DE3A01CB503F600C56CA8 /* libsqlite3.tbd in Frameworks */,
-				646DE39E1CB503EE00C56CA8 /* CoreGraphics.framework in Frameworks */,
-				646DE39C1CB503E000C56CA8 /* libiconv.tbd in Frameworks */,
-				646DE39A1CB503D300C56CA8 /* Security.framework in Frameworks */,
-				646DE3941CB503AA00C56CA8 /* libSocialQQ.a in Frameworks */,
-				646DE3951CB503AA00C56CA8 /* TencentOpenAPI.framework in Frameworks */,
-				64161F6D1CB4FB29003BFC7A /* SystemConfiguration.framework in Frameworks */,
-				64161F621CB4FB14003BFC7A /* libUMSocial_Sdk_5.0.1.a in Frameworks */,
-				C2A01159C4F0479A17FBC9D0 /* Pods.framework in Frameworks */,
-				646DE3981CB503AA00C56CA8 /* libWeChatSDK.a in Frameworks */,
-				646DE3921CB503AA00C56CA8 /* libWeiboSDK.a in Frameworks */,
-				646DE3971CB503AA00C56CA8 /* libSocialWechat.a in Frameworks */,
-				648F86A41CAAA4A80013EEA9 /* Crashlytics.framework in Frameworks */,
-				648F86A31CAAA4A80013EEA9 /* Fabric.framework in Frameworks */,
-				646DE3911CB503AA00C56CA8 /* libSocialSinaSSO.a in Frameworks */,
+				64AAD7301EE42020004DAC09 /* Crashlytics.framework in Frameworks */,
+				64AAD72F1EE42020004DAC09 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64920C781CAA9EB2006D1307 /* Frameworks */ = {
+		645D63AB1EE41E9D00044EA3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64BBF1601CACB1AB00FCDCBA /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645D63B61EE41E9D00044EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		35B1287ABC29E653C1DADBA3 /* Pods */ = {
+		645D63911EE41E9D00044EA3 = {
 			isa = PBXGroup;
 			children = (
-				46137AF783AF264CD60A81AB /* Pods.debug.xcconfig */,
-				837FAA935DBF05108BAF8621 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		64161F461CB4FB14003BFC7A /* UMSocial_Sdk_5.0.1 */ = {
-			isa = PBXGroup;
-			children = (
-				646DE3761CB503AA00C56CA8 /* SinaSSO */,
-				646DE3851CB503AA00C56CA8 /* TencentOpenAPI */,
-				646DE38A1CB503AA00C56CA8 /* Wechat */,
-				64161F471CB4FB14003BFC7A /* UMSocialLocalizable.strings */,
-				64161F491CB4FB14003BFC7A /* Header */,
-				64161F551CB4FB14003BFC7A /* libUMSocial_Sdk_5.0.1.a */,
-				64161F561CB4FB14003BFC7A /* SocialSDKXib */,
-				64161F5F1CB4FB14003BFC7A /* UMSocialSDKResourcesNew.bundle */,
-			);
-			path = UMSocial_Sdk_5.0.1;
-			sourceTree = "<group>";
-		};
-		64161F491CB4FB14003BFC7A /* Header */ = {
-			isa = PBXGroup;
-			children = (
-				64161F4A1CB4FB14003BFC7A /* UMSocial.h */,
-				64161F4B1CB4FB14003BFC7A /* UMSocialAccountManager.h */,
-				64161F4C1CB4FB14003BFC7A /* UMSocialBar.h */,
-				64161F4D1CB4FB14003BFC7A /* UMSocialConfig.h */,
-				64161F4E1CB4FB14003BFC7A /* UMSocialControllerService.h */,
-				64161F4F1CB4FB14003BFC7A /* UMSocialControllerServiceComment.h */,
-				64161F501CB4FB14003BFC7A /* UMSocialData.h */,
-				64161F511CB4FB14003BFC7A /* UMSocialDataService.h */,
-				64161F521CB4FB14003BFC7A /* UMSocialSnsData.h */,
-				64161F531CB4FB14003BFC7A /* UMSocialSnsPlatformManager.h */,
-				64161F541CB4FB14003BFC7A /* UMSocialSnsService.h */,
-			);
-			path = Header;
-			sourceTree = "<group>";
-		};
-		64161F561CB4FB14003BFC7A /* SocialSDKXib */ = {
-			isa = PBXGroup;
-			children = (
-				64161F571CB4FB14003BFC7A /* UMSCommentDetailController.xib */,
-				64161F581CB4FB14003BFC7A /* UMSCommentInputController.xib */,
-				64161F591CB4FB14003BFC7A /* UMSCommentInputControlleriPad.xib */,
-				64161F5A1CB4FB14003BFC7A /* UMShareEditViewController.xib */,
-				64161F5B1CB4FB14003BFC7A /* UMShareEditViewControlleriPad.xib */,
-				64161F5C1CB4FB14003BFC7A /* UMSLoginViewController.xib */,
-				64161F5D1CB4FB14003BFC7A /* UMSnsAccountViewController.xib */,
-				64161F5E1CB4FB14003BFC7A /* UMSShareListController.xib */,
-			);
-			path = SocialSDKXib;
-			sourceTree = "<group>";
-		};
-		641E3AE71CAAA327009F8BE5 /* BTNavigationDropdownMenu */ = {
-			isa = PBXGroup;
-			children = (
-				64DFACBE1CAAA1EA003125F8 /* BTNavigationDropdownMenu.swift */,
-				641E3AE51CAAA322009F8BE5 /* BTNavigationDropdownMenu.bundle */,
-			);
-			name = BTNavigationDropdownMenu;
-			sourceTree = "<group>";
-		};
-		646DE3761CB503AA00C56CA8 /* SinaSSO */ = {
-			isa = PBXGroup;
-			children = (
-				646DE3771CB503AA00C56CA8 /* libSocialSinaSSO.a */,
-				646DE3781CB503AA00C56CA8 /* libWeiboSDK.a */,
-				646DE3791CB503AA00C56CA8 /* UMSocialSinaSSOHandler.h */,
-				646DE37A1CB503AA00C56CA8 /* WBHttpRequest+WeiboGame.h */,
-				646DE37B1CB503AA00C56CA8 /* WBHttpRequest+WeiboShare.h */,
-				646DE37C1CB503AA00C56CA8 /* WBHttpRequest+WeiboToken.h */,
-				646DE37D1CB503AA00C56CA8 /* WBHttpRequest+WeiboUser.h */,
-				646DE37E1CB503AA00C56CA8 /* WBHttpRequest.h */,
-				646DE37F1CB503AA00C56CA8 /* WBSDKBasicButton.h */,
-				646DE3801CB503AA00C56CA8 /* WBSDKCommentButton.h */,
-				646DE3811CB503AA00C56CA8 /* WBSDKRelationshipButton.h */,
-				646DE3821CB503AA00C56CA8 /* WeiboSDK.bundle */,
-				646DE3831CB503AA00C56CA8 /* WeiboSDK.h */,
-				646DE3841CB503AA00C56CA8 /* WeiboUser.h */,
-			);
-			path = SinaSSO;
-			sourceTree = "<group>";
-		};
-		646DE3851CB503AA00C56CA8 /* TencentOpenAPI */ = {
-			isa = PBXGroup;
-			children = (
-				646DE3861CB503AA00C56CA8 /* libSocialQQ.a */,
-				646DE3871CB503AA00C56CA8 /* TencentOpenAPI.framework */,
-				646DE3881CB503AA00C56CA8 /* TencentOpenApi_IOS_Bundle.bundle */,
-				646DE3891CB503AA00C56CA8 /* UMSocialQQHandler.h */,
-			);
-			path = TencentOpenAPI;
-			sourceTree = "<group>";
-		};
-		646DE38A1CB503AA00C56CA8 /* Wechat */ = {
-			isa = PBXGroup;
-			children = (
-				646DE38B1CB503AA00C56CA8 /* libSocialWechat.a */,
-				646DE38C1CB503AA00C56CA8 /* libWeChatSDK.a */,
-				646DE38D1CB503AA00C56CA8 /* UMSocialWechatHandler.h */,
-				646DE38E1CB503AA00C56CA8 /* WechatAuthSDK.h */,
-				646DE38F1CB503AA00C56CA8 /* WXApi.h */,
-				646DE3901CB503AA00C56CA8 /* WXApiObject.h */,
-			);
-			path = Wechat;
-			sourceTree = "<group>";
-		};
-		6475838F1CC87400004F1C17 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		64920C5E1CAA9EB1006D1307 = {
-			isa = PBXGroup;
-			children = (
-				648F86A11CAAA4A80013EEA9 /* Fabric.framework */,
-				648F86A21CAAA4A80013EEA9 /* Crashlytics.framework */,
-				64920C691CAA9EB1006D1307 /* BorderPoliceNews */,
-				64920C7E1CAA9EB2006D1307 /* BorderPoliceNewsTests */,
-				64920C681CAA9EB1006D1307 /* Products */,
-				35B1287ABC29E653C1DADBA3 /* Pods */,
-				AAAABB14B0FBDFC3C519F47B /* Frameworks */,
+				645D639C1EE41E9D00044EA3 /* BorderPoliceNews */,
+				645D63B11EE41E9D00044EA3 /* BorderPoliceNewsTests */,
+				645D63BC1EE41E9D00044EA3 /* BorderPoliceNewsUITests */,
+				645D639B1EE41E9D00044EA3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		64920C681CAA9EB1006D1307 /* Products */ = {
+		645D639B1EE41E9D00044EA3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				64920C671CAA9EB1006D1307 /* 边防警察报.app */,
-				64920C7B1CAA9EB2006D1307 /* BorderPoliceNewsTests.xctest */,
+				645D639A1EE41E9D00044EA3 /* BorderPoliceNews.app */,
+				645D63AE1EE41E9D00044EA3 /* BorderPoliceNewsTests.xctest */,
+				645D63B91EE41E9D00044EA3 /* BorderPoliceNewsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		64920C691CAA9EB1006D1307 /* BorderPoliceNews */ = {
+		645D639C1EE41E9D00044EA3 /* BorderPoliceNews */ = {
 			isa = PBXGroup;
 			children = (
-				6475838F1CC87400004F1C17 /* Resources */,
-				64161F6E1CB4FC4D003BFC7A /* BorderPoliceNews-Bridging-Header.h */,
-				64161F461CB4FB14003BFC7A /* UMSocial_Sdk_5.0.1 */,
-				641E3AE71CAAA327009F8BE5 /* BTNavigationDropdownMenu */,
-				64920C6A1CAA9EB1006D1307 /* AppDelegate.swift */,
-				64DFACB01CAAA199003125F8 /* Controllers */,
-				64DFACB11CAAA1C9003125F8 /* Views */,
-				64DFACB71CAAA1DF003125F8 /* Paper.swift */,
-				64DFACB61CAAA1DF003125F8 /* Page.swift */,
-				649397FE1CE1DFF70062B10D /* Page+DomOps.swift */,
-				64DFACB51CAAA1DF003125F8 /* Entry.swift */,
-				64920C6E1CAA9EB1006D1307 /* Main.storyboard */,
-				64920C711CAA9EB1006D1307 /* Assets.xcassets */,
-				64920C731CAA9EB1006D1307 /* LaunchScreen.storyboard */,
-				64920C761CAA9EB1006D1307 /* Info.plist */,
+				64AAD72C1EE42017004DAC09 /* Frameworks */,
+				645D639D1EE41E9D00044EA3 /* AppDelegate.swift */,
+				645D639F1EE41E9D00044EA3 /* ViewController.swift */,
+				645D63A11EE41E9D00044EA3 /* Main.storyboard */,
+				645D63A41EE41E9D00044EA3 /* Assets.xcassets */,
+				645D63A61EE41E9D00044EA3 /* LaunchScreen.storyboard */,
+				645D63A91EE41E9D00044EA3 /* Info.plist */,
 			);
 			path = BorderPoliceNews;
 			sourceTree = "<group>";
 		};
-		64920C7E1CAA9EB2006D1307 /* BorderPoliceNewsTests */ = {
+		645D63B11EE41E9D00044EA3 /* BorderPoliceNewsTests */ = {
 			isa = PBXGroup;
 			children = (
-				64920C7F1CAA9EB2006D1307 /* BorderPoliceNewsTests.swift */,
-				64920C811CAA9EB2006D1307 /* Info.plist */,
+				645D63B21EE41E9D00044EA3 /* BorderPoliceNewsTests.swift */,
+				645D63B41EE41E9D00044EA3 /* Info.plist */,
 			);
 			path = BorderPoliceNewsTests;
 			sourceTree = "<group>";
 		};
-		64DFACB01CAAA199003125F8 /* Controllers */ = {
+		645D63BC1EE41E9D00044EA3 /* BorderPoliceNewsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				64DFACA91CAAA196003125F8 /* HomeViewController.swift */,
-				647F240E1CC464610090DCE2 /* PaperViewController.swift */,
-				64DFACA81CAAA196003125F8 /* EntryViewController.swift */,
-				64DFACA71CAAA196003125F8 /* DemoCalendarViewController.swift */,
+				645D63BD1EE41E9D00044EA3 /* BorderPoliceNewsUITests.swift */,
+				645D63BF1EE41E9D00044EA3 /* Info.plist */,
 			);
-			name = Controllers;
+			path = BorderPoliceNewsUITests;
 			sourceTree = "<group>";
 		};
-		64DFACB11CAAA1C9003125F8 /* Views */ = {
+		64AAD72C1EE42017004DAC09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6458A1BE1CE978610088B3C0 /* ClickableAreaButton.swift */,
-				64DFACB21CAAA1D3003125F8 /* EntryCell.swift */,
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
-		AAAABB14B0FBDFC3C519F47B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				646DE3A51CB5041700C56CA8 /* libz.tbd */,
-				646DE3A31CB5040A00C56CA8 /* libstdc++.tbd */,
-				646DE3A11CB5040000C56CA8 /* CoreTelephony.framework */,
-				646DE39F1CB503F600C56CA8 /* libsqlite3.tbd */,
-				646DE39D1CB503EE00C56CA8 /* CoreGraphics.framework */,
-				646DE39B1CB503E000C56CA8 /* libiconv.tbd */,
-				646DE3991CB503D300C56CA8 /* Security.framework */,
-				64161F6C1CB4FB29003BFC7A /* SystemConfiguration.framework */,
-				64C432BC1CAE237100D2E997 /* libxml2.tbd */,
-				9A9DC5B7CC9EE95D7CDBEC26 /* Pods.framework */,
+				64AAD72D1EE42020004DAC09 /* Fabric.framework */,
+				64AAD72E1EE42020004DAC09 /* Crashlytics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -410,17 +144,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		64920C661CAA9EB1006D1307 /* BorderPoliceNews */ = {
+		645D63991EE41E9D00044EA3 /* BorderPoliceNews */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 64920C841CAA9EB2006D1307 /* Build configuration list for PBXNativeTarget "BorderPoliceNews" */;
+			buildConfigurationList = 645D63C21EE41E9D00044EA3 /* Build configuration list for PBXNativeTarget "BorderPoliceNews" */;
 			buildPhases = (
-				BB959337E489F0BDE2C9892C /* Check Pods Manifest.lock */,
-				64920C631CAA9EB1006D1307 /* Sources */,
-				64920C641CAA9EB1006D1307 /* Frameworks */,
-				64920C651CAA9EB1006D1307 /* Resources */,
-				CCD6033D69FAEDA81343C07B /* Embed Pods Frameworks */,
-				C42BE1857807F5804D6A3FAF /* Copy Pods Resources */,
-				648F86A01CAAA46F0013EEA9 /* ShellScript */,
+				645D63961EE41E9D00044EA3 /* Sources */,
+				645D63971EE41E9D00044EA3 /* Frameworks */,
+				645D63981EE41E9D00044EA3 /* Resources */,
+				64AAD7261EE41F8E004DAC09 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -428,92 +159,113 @@
 			);
 			name = BorderPoliceNews;
 			productName = BorderPoliceNews;
-			productReference = 64920C671CAA9EB1006D1307 /* 边防警察报.app */;
+			productReference = 645D639A1EE41E9D00044EA3 /* BorderPoliceNews.app */;
 			productType = "com.apple.product-type.application";
 		};
-		64920C7A1CAA9EB2006D1307 /* BorderPoliceNewsTests */ = {
+		645D63AD1EE41E9D00044EA3 /* BorderPoliceNewsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 64920C871CAA9EB2006D1307 /* Build configuration list for PBXNativeTarget "BorderPoliceNewsTests" */;
+			buildConfigurationList = 645D63C51EE41E9D00044EA3 /* Build configuration list for PBXNativeTarget "BorderPoliceNewsTests" */;
 			buildPhases = (
-				64920C771CAA9EB2006D1307 /* Sources */,
-				64920C781CAA9EB2006D1307 /* Frameworks */,
-				64920C791CAA9EB2006D1307 /* Resources */,
+				645D63AA1EE41E9D00044EA3 /* Sources */,
+				645D63AB1EE41E9D00044EA3 /* Frameworks */,
+				645D63AC1EE41E9D00044EA3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				64920C7D1CAA9EB2006D1307 /* PBXTargetDependency */,
+				645D63B01EE41E9D00044EA3 /* PBXTargetDependency */,
 			);
 			name = BorderPoliceNewsTests;
 			productName = BorderPoliceNewsTests;
-			productReference = 64920C7B1CAA9EB2006D1307 /* BorderPoliceNewsTests.xctest */;
+			productReference = 645D63AE1EE41E9D00044EA3 /* BorderPoliceNewsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		645D63B81EE41E9D00044EA3 /* BorderPoliceNewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 645D63C81EE41E9D00044EA3 /* Build configuration list for PBXNativeTarget "BorderPoliceNewsUITests" */;
+			buildPhases = (
+				645D63B51EE41E9D00044EA3 /* Sources */,
+				645D63B61EE41E9D00044EA3 /* Frameworks */,
+				645D63B71EE41E9D00044EA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				645D63BB1EE41E9D00044EA3 /* PBXTargetDependency */,
+			);
+			name = BorderPoliceNewsUITests;
+			productName = BorderPoliceNewsUITests;
+			productReference = 645D63B91EE41E9D00044EA3 /* BorderPoliceNewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		64920C5F1CAA9EB1006D1307 /* Project object */ = {
+		645D63921EE41E9D00044EA3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = MLTT;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "杜艺卓";
 				TargetAttributes = {
-					64920C661CAA9EB1006D1307 = {
-						CreatedOnToolsVersion = 7.3;
+					645D63991EE41E9D00044EA3 = {
+						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 98GGXKMU33;
+						ProvisioningStyle = Automatic;
 					};
-					64920C7A1CAA9EB2006D1307 = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 64920C661CAA9EB1006D1307;
+					645D63AD1EE41E9D00044EA3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 98GGXKMU33;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 645D63991EE41E9D00044EA3;
+					};
+					645D63B81EE41E9D00044EA3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 98GGXKMU33;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 645D63991EE41E9D00044EA3;
 					};
 				};
 			};
-			buildConfigurationList = 64920C621CAA9EB1006D1307 /* Build configuration list for PBXProject "BorderPoliceNews" */;
+			buildConfigurationList = 645D63951EE41E9D00044EA3 /* Build configuration list for PBXProject "BorderPoliceNews" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
-				"zh-Hans",
 			);
-			mainGroup = 64920C5E1CAA9EB1006D1307;
-			productRefGroup = 64920C681CAA9EB1006D1307 /* Products */;
+			mainGroup = 645D63911EE41E9D00044EA3;
+			productRefGroup = 645D639B1EE41E9D00044EA3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				64920C661CAA9EB1006D1307 /* BorderPoliceNews */,
-				64920C7A1CAA9EB2006D1307 /* BorderPoliceNewsTests */,
+				645D63991EE41E9D00044EA3 /* BorderPoliceNews */,
+				645D63AD1EE41E9D00044EA3 /* BorderPoliceNewsTests */,
+				645D63B81EE41E9D00044EA3 /* BorderPoliceNewsUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		64920C651CAA9EB1006D1307 /* Resources */ = {
+		645D63981EE41E9D00044EA3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				646DE3961CB503AA00C56CA8 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
-				64161F671CB4FB14003BFC7A /* UMShareEditViewControlleriPad.xib in Resources */,
-				64161F691CB4FB14003BFC7A /* UMSnsAccountViewController.xib in Resources */,
-				646DE3931CB503AA00C56CA8 /* WeiboSDK.bundle in Resources */,
-				64161F641CB4FB14003BFC7A /* UMSCommentInputController.xib in Resources */,
-				64161F631CB4FB14003BFC7A /* UMSCommentDetailController.xib in Resources */,
-				64920C751CAA9EB1006D1307 /* LaunchScreen.storyboard in Resources */,
-				64920C721CAA9EB1006D1307 /* Assets.xcassets in Resources */,
-				64161F6B1CB4FB14003BFC7A /* UMSocialSDKResourcesNew.bundle in Resources */,
-				64161F651CB4FB14003BFC7A /* UMSCommentInputControlleriPad.xib in Resources */,
-				64161F661CB4FB14003BFC7A /* UMShareEditViewController.xib in Resources */,
-				64161F6A1CB4FB14003BFC7A /* UMSShareListController.xib in Resources */,
-				64161F611CB4FB14003BFC7A /* UMSocialLocalizable.strings in Resources */,
-				64920C701CAA9EB1006D1307 /* Main.storyboard in Resources */,
-				641E3AE61CAAA322009F8BE5 /* BTNavigationDropdownMenu.bundle in Resources */,
-				64161F681CB4FB14003BFC7A /* UMSLoginViewController.xib in Resources */,
+				645D63A81EE41E9D00044EA3 /* LaunchScreen.storyboard in Resources */,
+				645D63A51EE41E9D00044EA3 /* Assets.xcassets in Resources */,
+				645D63A31EE41E9D00044EA3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64920C791CAA9EB2006D1307 /* Resources */ = {
+		645D63AC1EE41E9D00044EA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645D63B71EE41E9D00044EA3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -523,7 +275,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		648F86A01CAAA46F0013EEA9 /* ShellScript */ = {
+		64AAD7261EE41F8E004DAC09 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -536,122 +288,62 @@
 			shellPath = /bin/sh;
 			shellScript = "./Fabric.framework/run d06c859beab2baed03b39c5405885c68dfdd15d1 6ced5018ee79105907eb2a04ef49a2e4683f01dc2b60fc0f4857a9b72b13977b";
 		};
-		BB959337E489F0BDE2C9892C /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C42BE1857807F5804D6A3FAF /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CCD6033D69FAEDA81343C07B /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		64920C631CAA9EB1006D1307 /* Sources */ = {
+		645D63961EE41E9D00044EA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64DFACB81CAAA1DF003125F8 /* Entry.swift in Sources */,
-				64DFACBF1CAAA1EA003125F8 /* BTNavigationDropdownMenu.swift in Sources */,
-				64DFACAE1CAAA196003125F8 /* HomeViewController.swift in Sources */,
-				6458A1BF1CE978610088B3C0 /* ClickableAreaButton.swift in Sources */,
-				64DFACB31CAAA1D3003125F8 /* EntryCell.swift in Sources */,
-				64DFACAA1CAAA196003125F8 /* DemoCalendarViewController.swift in Sources */,
-				64DFACBA1CAAA1DF003125F8 /* Page.swift in Sources */,
-				64DFACAC1CAAA196003125F8 /* EntryViewController.swift in Sources */,
-				64DFACBC1CAAA1DF003125F8 /* Paper.swift in Sources */,
-				64920C6B1CAA9EB1006D1307 /* AppDelegate.swift in Sources */,
-				647F240F1CC464610090DCE2 /* PaperViewController.swift in Sources */,
-				649397FF1CE1DFF70062B10D /* Page+DomOps.swift in Sources */,
+				645D63A01EE41E9D00044EA3 /* ViewController.swift in Sources */,
+				645D639E1EE41E9D00044EA3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64920C771CAA9EB2006D1307 /* Sources */ = {
+		645D63AA1EE41E9D00044EA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64DFACB91CAAA1DF003125F8 /* Entry.swift in Sources */,
-				64DFACC01CAAA1EA003125F8 /* BTNavigationDropdownMenu.swift in Sources */,
-				64DFACAB1CAAA196003125F8 /* DemoCalendarViewController.swift in Sources */,
-				64DFACB41CAAA1D3003125F8 /* EntryCell.swift in Sources */,
-				64920C801CAA9EB2006D1307 /* BorderPoliceNewsTests.swift in Sources */,
-				64DFACBB1CAAA1DF003125F8 /* Page.swift in Sources */,
-				64DFACAD1CAAA196003125F8 /* EntryViewController.swift in Sources */,
-				64DFACBD1CAAA1DF003125F8 /* Paper.swift in Sources */,
-				64BBF1611CACB1EA00FCDCBA /* AppDelegate.swift in Sources */,
-				64DFACAF1CAAA196003125F8 /* HomeViewController.swift in Sources */,
+				645D63B31EE41E9D00044EA3 /* BorderPoliceNewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645D63B51EE41E9D00044EA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				645D63BE1EE41E9D00044EA3 /* BorderPoliceNewsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		64920C7D1CAA9EB2006D1307 /* PBXTargetDependency */ = {
+		645D63B01EE41E9D00044EA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 64920C661CAA9EB1006D1307 /* BorderPoliceNews */;
-			targetProxy = 64920C7C1CAA9EB2006D1307 /* PBXContainerItemProxy */;
+			target = 645D63991EE41E9D00044EA3 /* BorderPoliceNews */;
+			targetProxy = 645D63AF1EE41E9D00044EA3 /* PBXContainerItemProxy */;
+		};
+		645D63BB1EE41E9D00044EA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 645D63991EE41E9D00044EA3 /* BorderPoliceNews */;
+			targetProxy = 645D63BA1EE41E9D00044EA3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		64161F471CB4FB14003BFC7A /* UMSocialLocalizable.strings */ = {
+		645D63A11EE41E9D00044EA3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				64161F481CB4FB14003BFC7A /* en */,
-				64161F601CB4FB14003BFC7A /* zh-Hans */,
-			);
-			name = UMSocialLocalizable.strings;
-			sourceTree = "<group>";
-		};
-		64920C6E1CAA9EB1006D1307 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				64920C6F1CAA9EB1006D1307 /* Base */,
+				645D63A21EE41E9D00044EA3 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		64920C731CAA9EB1006D1307 /* LaunchScreen.storyboard */ = {
+		645D63A61EE41E9D00044EA3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				64920C741CAA9EB1006D1307 /* Base */,
+				645D63A71EE41E9D00044EA3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -659,11 +351,12 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		64920C821CAA9EB2006D1307 /* Debug */ = {
+		645D63C01EE41E9D00044EA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -671,10 +364,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -696,20 +392,21 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		64920C831CAA9EB2006D1307 /* Release */ = {
+		645D63C11EE41E9D00044EA3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -717,10 +414,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -736,129 +436,150 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		64920C851CAA9EB2006D1307 /* Debug */ = {
+		645D63C31EE41E9D00044EA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46137AF783AF264CD60A81AB /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 98GGXKMU33;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/BorderPoliceNews",
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/BorderPoliceNews/UMSocial_Sdk_5.0.1/TencentOpenAPI",
 				);
 				INFOPLIST_FILE = BorderPoliceNews/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/BorderPoliceNews/UMAnalytics_Sdk_3.6.6",
-					"$(PROJECT_DIR)/BorderPoliceNews/UMSocial_Sdk_5.0.1",
-					"$(PROJECT_DIR)/BorderPoliceNews/UMSocial_Sdk_5.0.1/SinaSSO",
-					"$(PROJECT_DIR)/BorderPoliceNews/UMSocial_Sdk_5.0.1/TencentOpenAPI",
-					"$(PROJECT_DIR)/BorderPoliceNews/UMSocial_Sdk_5.0.1/Wechat",
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dyz.BorderPoliceNews;
-				PRODUCT_NAME = "边防警察报";
-				SWIFT_OBJC_BRIDGING_HEADER = "BorderPoliceNews/BorderPoliceNews-Bridging-Header.h";
-				TARGETED_DEVICE_FAMILY = 1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		64920C861CAA9EB2006D1307 /* Release */ = {
+		645D63C41EE41E9D00044EA3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 837FAA935DBF05108BAF8621 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 98GGXKMU33;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/BorderPoliceNews",
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/BorderPoliceNews/UMSocial_Sdk_5.0.1/TencentOpenAPI",
 				);
 				INFOPLIST_FILE = BorderPoliceNews/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/BorderPoliceNews/UMAnalytics_Sdk_3.6.6",
-					"$(PROJECT_DIR)/BorderPoliceNews/UMSocial_Sdk_5.0.1",
-					"$(PROJECT_DIR)/BorderPoliceNews/UMSocial_Sdk_5.0.1/SinaSSO",
-					"$(PROJECT_DIR)/BorderPoliceNews/UMSocial_Sdk_5.0.1/TencentOpenAPI",
-					"$(PROJECT_DIR)/BorderPoliceNews/UMSocial_Sdk_5.0.1/Wechat",
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dyz.BorderPoliceNews;
-				PRODUCT_NAME = "边防警察报";
-				SWIFT_OBJC_BRIDGING_HEADER = "BorderPoliceNews/BorderPoliceNews-Bridging-Header.h";
-				TARGETED_DEVICE_FAMILY = 1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		64920C881CAA9EB2006D1307 /* Debug */ = {
+		645D63C61EE41E9D00044EA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 98GGXKMU33;
 				INFOPLIST_FILE = BorderPoliceNewsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dyz.BorderPoliceNewsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BorderPoliceNews.app/BorderPoliceNews";
 			};
 			name = Debug;
 		};
-		64920C891CAA9EB2006D1307 /* Release */ = {
+		645D63C71EE41E9D00044EA3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 98GGXKMU33;
 				INFOPLIST_FILE = BorderPoliceNewsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dyz.BorderPoliceNewsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BorderPoliceNews.app/BorderPoliceNews";
+			};
+			name = Release;
+		};
+		645D63C91EE41E9D00044EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 98GGXKMU33;
+				INFOPLIST_FILE = BorderPoliceNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyz.BorderPoliceNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BorderPoliceNews;
+			};
+			name = Debug;
+		};
+		645D63CA1EE41E9D00044EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 98GGXKMU33;
+				INFOPLIST_FILE = BorderPoliceNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyz.BorderPoliceNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BorderPoliceNews;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		64920C621CAA9EB1006D1307 /* Build configuration list for PBXProject "BorderPoliceNews" */ = {
+		645D63951EE41E9D00044EA3 /* Build configuration list for PBXProject "BorderPoliceNews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				64920C821CAA9EB2006D1307 /* Debug */,
-				64920C831CAA9EB2006D1307 /* Release */,
+				645D63C01EE41E9D00044EA3 /* Debug */,
+				645D63C11EE41E9D00044EA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		64920C841CAA9EB2006D1307 /* Build configuration list for PBXNativeTarget "BorderPoliceNews" */ = {
+		645D63C21EE41E9D00044EA3 /* Build configuration list for PBXNativeTarget "BorderPoliceNews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				64920C851CAA9EB2006D1307 /* Debug */,
-				64920C861CAA9EB2006D1307 /* Release */,
+				645D63C31EE41E9D00044EA3 /* Debug */,
+				645D63C41EE41E9D00044EA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		64920C871CAA9EB2006D1307 /* Build configuration list for PBXNativeTarget "BorderPoliceNewsTests" */ = {
+		645D63C51EE41E9D00044EA3 /* Build configuration list for PBXNativeTarget "BorderPoliceNewsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				64920C881CAA9EB2006D1307 /* Debug */,
-				64920C891CAA9EB2006D1307 /* Release */,
+				645D63C61EE41E9D00044EA3 /* Debug */,
+				645D63C71EE41E9D00044EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		645D63C81EE41E9D00044EA3 /* Build configuration list for PBXNativeTarget "BorderPoliceNewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645D63C91EE41E9D00044EA3 /* Debug */,
+				645D63CA1EE41E9D00044EA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 64920C5F1CAA9EB1006D1307 /* Project object */;
+	rootObject = 645D63921EE41E9D00044EA3 /* Project object */;
 }

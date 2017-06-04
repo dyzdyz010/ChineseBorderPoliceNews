@@ -2,8 +2,8 @@
 //  BorderPoliceNewsTests.swift
 //  BorderPoliceNewsTests
 //
-//  Created by Du Yizhuo on 16/3/29.
-//  Copyright © 2016年 MLTT. All rights reserved.
+//  Created by 杜艺卓 on 2017/6/4.
+//  Copyright © 2017年 杜艺卓. All rights reserved.
 //
 
 import XCTest
@@ -28,7 +28,7 @@ class BorderPoliceNewsTests: XCTestCase {
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }
