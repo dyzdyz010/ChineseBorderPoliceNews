@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import Moya
 
 enum Newspaper {
     case paper(date: Date)

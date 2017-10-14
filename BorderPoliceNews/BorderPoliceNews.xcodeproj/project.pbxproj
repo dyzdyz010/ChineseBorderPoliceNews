@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6451F18A1F91B366004F8821 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6451F1891F91B366004F8821 /* Alamofire.framework */; };
+		6451F18B1F91B366004F8821 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6451F1891F91B366004F8821 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6451F18E1F91B386004F8821 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6451F18D1F91B386004F8821 /* Result.framework */; };
+		6451F18F1F91B386004F8821 /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6451F18D1F91B386004F8821 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		645D639E1EE41E9D00044EA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D639D1EE41E9D00044EA3 /* AppDelegate.swift */; };
 		645D63A01EE41E9D00044EA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D639F1EE41E9D00044EA3 /* ViewController.swift */; };
 		645D63A31EE41E9D00044EA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 645D63A11EE41E9D00044EA3 /* Main.storyboard */; };
@@ -14,12 +18,12 @@
 		645D63A81EE41E9D00044EA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 645D63A61EE41E9D00044EA3 /* LaunchScreen.storyboard */; };
 		645D63B31EE41E9D00044EA3 /* BorderPoliceNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D63B21EE41E9D00044EA3 /* BorderPoliceNewsTests.swift */; };
 		645D63BE1EE41E9D00044EA3 /* BorderPoliceNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D63BD1EE41E9D00044EA3 /* BorderPoliceNewsUITests.swift */; };
+		649D68F41F91AF2700818BDE /* JTAppleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DB25AC1EE456130048DD96 /* JTAppleCalendar.framework */; };
+		649D68F51F91AF2700818BDE /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DB25A81EE456040048DD96 /* Moya.framework */; };
+		649D68F81F91AF2800818BDE /* HidingNavigationBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649D68F61F91AF2800818BDE /* HidingNavigationBar.framework */; };
+		649D68F91F91AF2800818BDE /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649D68F71F91AF2800818BDE /* SWXMLHash.framework */; };
 		64DB25A61EE423220048DD96 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DB25A41EE423220048DD96 /* Fabric.framework */; };
 		64DB25A71EE423220048DD96 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DB25A51EE423220048DD96 /* Crashlytics.framework */; };
-		64DB25A91EE456040048DD96 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DB25A81EE456040048DD96 /* Moya.framework */; };
-		64DB25AD1EE456130048DD96 /* AEXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DB25AA1EE456130048DD96 /* AEXML.framework */; };
-		64DB25AE1EE456130048DD96 /* CircleMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DB25AB1EE456130048DD96 /* CircleMenu.framework */; };
-		64DB25AF1EE456130048DD96 /* JTAppleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DB25AC1EE456130048DD96 /* JTAppleCalendar.framework */; };
 		64DB25B21EE4596B0048DD96 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DB25B11EE4596B0048DD96 /* Endpoints.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +44,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6451F18C1F91B366004F8821 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6451F18B1F91B366004F8821 /* Alamofire.framework in Embed Frameworks */,
+				6451F18F1F91B386004F8821 /* Result.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		640B292F1F91B24800197DAD /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		6451F1891F91B366004F8821 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		6451F18D1F91B386004F8821 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 		645D639A1EE41E9D00044EA3 /* BorderPoliceNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BorderPoliceNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		645D639D1EE41E9D00044EA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		645D639F1EE41E9D00044EA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,11 +76,11 @@
 		645D63B91EE41E9D00044EA3 /* BorderPoliceNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BorderPoliceNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		645D63BD1EE41E9D00044EA3 /* BorderPoliceNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderPoliceNewsUITests.swift; sourceTree = "<group>"; };
 		645D63BF1EE41E9D00044EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		649D68F61F91AF2800818BDE /* HidingNavigationBar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HidingNavigationBar.framework; path = Carthage/Build/iOS/HidingNavigationBar.framework; sourceTree = "<group>"; };
+		649D68F71F91AF2800818BDE /* SWXMLHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SWXMLHash.framework; path = Carthage/Build/iOS/SWXMLHash.framework; sourceTree = "<group>"; };
 		64DB25A41EE423220048DD96 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
 		64DB25A51EE423220048DD96 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
 		64DB25A81EE456040048DD96 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = SOURCE_ROOT; };
-		64DB25AA1EE456130048DD96 /* AEXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AEXML.framework; path = Carthage/Build/iOS/AEXML.framework; sourceTree = SOURCE_ROOT; };
-		64DB25AB1EE456130048DD96 /* CircleMenu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CircleMenu.framework; path = Carthage/Build/iOS/CircleMenu.framework; sourceTree = SOURCE_ROOT; };
 		64DB25AC1EE456130048DD96 /* JTAppleCalendar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JTAppleCalendar.framework; path = Carthage/Build/iOS/JTAppleCalendar.framework; sourceTree = SOURCE_ROOT; };
 		64DB25B11EE4596B0048DD96 /* Endpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,11 +90,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				649D68F81F91AF2800818BDE /* HidingNavigationBar.framework in Frameworks */,
+				649D68F91F91AF2800818BDE /* SWXMLHash.framework in Frameworks */,
+				649D68F41F91AF2700818BDE /* JTAppleCalendar.framework in Frameworks */,
+				6451F18E1F91B386004F8821 /* Result.framework in Frameworks */,
+				649D68F51F91AF2700818BDE /* Moya.framework in Frameworks */,
+				6451F18A1F91B366004F8821 /* Alamofire.framework in Frameworks */,
 				64DB25A71EE423220048DD96 /* Crashlytics.framework in Frameworks */,
-				64DB25AF1EE456130048DD96 /* JTAppleCalendar.framework in Frameworks */,
-				64DB25A91EE456040048DD96 /* Moya.framework in Frameworks */,
-				64DB25AE1EE456130048DD96 /* CircleMenu.framework in Frameworks */,
-				64DB25AD1EE456130048DD96 /* AEXML.framework in Frameworks */,
 				64DB25A61EE423220048DD96 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,10 +121,14 @@
 		645D63911EE41E9D00044EA3 = {
 			isa = PBXGroup;
 			children = (
+				6451F18D1F91B386004F8821 /* Result.framework */,
+				6451F1891F91B366004F8821 /* Alamofire.framework */,
 				645D639C1EE41E9D00044EA3 /* BorderPoliceNews */,
 				645D63B11EE41E9D00044EA3 /* BorderPoliceNewsTests */,
 				645D63BC1EE41E9D00044EA3 /* BorderPoliceNewsUITests */,
 				645D639B1EE41E9D00044EA3 /* Products */,
+				640B292F1F91B24800197DAD /* Result.framework */,
+				649D68F31F91AF2700818BDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,11 +175,18 @@
 			path = BorderPoliceNewsUITests;
 			sourceTree = "<group>";
 		};
+		649D68F31F91AF2700818BDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				649D68F61F91AF2800818BDE /* HidingNavigationBar.framework */,
+				649D68F71F91AF2800818BDE /* SWXMLHash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		64AAD72C1EE42017004DAC09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				64DB25AA1EE456130048DD96 /* AEXML.framework */,
-				64DB25AB1EE456130048DD96 /* CircleMenu.framework */,
 				64DB25AC1EE456130048DD96 /* JTAppleCalendar.framework */,
 				64DB25A81EE456040048DD96 /* Moya.framework */,
 				64DB25A41EE423220048DD96 /* Fabric.framework */,
@@ -179,6 +214,8 @@
 				645D63971EE41E9D00044EA3 /* Frameworks */,
 				645D63981EE41E9D00044EA3 /* Resources */,
 				64DB25A31EE422B10048DD96 /* ShellScript */,
+				649D68FA1F91AF4600818BDE /* ShellScript */,
+				6451F18C1F91B366004F8821 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -302,6 +339,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		649D68FA1F91AF4600818BDE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Moya.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/JTAppleCalendar.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SWXMLHash.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/HidingNavigationBar.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Moya.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/JTAppleCalendar.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SWXMLHash.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/HidingNavigationBar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
 		64DB25A31EE422B10048DD96 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -484,11 +542,12 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = BorderPoliceNews/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dyz.BorderPoliceNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -504,11 +563,12 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = BorderPoliceNews/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dyz.BorderPoliceNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
